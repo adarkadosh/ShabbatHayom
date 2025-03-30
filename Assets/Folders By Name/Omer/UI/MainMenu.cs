@@ -1,16 +1,21 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private bool _howToPlayActive = false;
+    [SerializeField] private GameObject howToPlayUI;
+    [SerializeField] private GameObject mainMenuUI;
 
-    // Update is called once per frame
-    void Update()
+    public void LoadGame()
     {
-        
+        SceneManager.LoadScene("Game");
+    }
+    
+    public void HowToPlay()
+    {
+        mainMenuUI.SetActive(_howToPlayActive);
+        _howToPlayActive = !_howToPlayActive;
+        howToPlayUI.SetActive(_howToPlayActive);
     }
 }
