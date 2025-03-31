@@ -1,6 +1,4 @@
-
-    public interface IPoolable
-    {
-        public void Reset();
-    }
-
+public interface IPoolable
+{
+    public void Reset();
+}
