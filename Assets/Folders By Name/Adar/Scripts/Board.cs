@@ -1,11 +1,12 @@
+using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 [DefaultExecutionOrder(-1)]
 public class Board : MonoBehaviour
 {
-    public Tilemap tilemap { get; private set; }
-    public Piece activePiece { get; private set; }
+    public Tilemap Tilemap { get; private set; }
+    public Piece ActivePiece { get; private set; }
 
     public TetrominoData[] tetrominoes;
     public Vector2Int boardSize = new Vector2Int(10, 20);
@@ -22,10 +23,11 @@ public class Board : MonoBehaviour
 
     private void Awake()
     {
-        tilemap = GetComponentInChildren<Tilemap>();
-        activePiece = GetComponentInChildren<Piece>();
+        Tilemap = GetComponentInChildren<Tilemap>();
+        ActivePiece = GetComponentInChildren<Piece>();
 
-        for (int i = 0; i < tetrominoes.Length; i++) {
+        for (int i = 0; i < tetrominoes.Length; i++)
+        {
             tetrominoes[i].Initialize();
         }
     }
@@ -35,23 +37,38 @@ public class Board : MonoBehaviour
         SpawnPiece();
     }
 
+    // private void OnEnable()
+    // {
+        // MyEvents.OnProductCollected += SpawnPiece;
+    // }
+
+    // private void OnDisable()
+    // {
+        // MyEvents.OnProductCollected -= SpawnPiece;
+    // }
+
+
     public void SpawnPiece()
     {
         int random = Random.Range(0, tetrominoes.Length);
         TetrominoData data = tetrominoes[random];
 
-        activePiece.Initialize(this, spawnPosition, data);
+        ActivePiece.Initialize(this, spawnPosition, data);
 
-        if (IsValidPosition(activePiece, spawnPosition)) {
-            Set(activePiece);
-        } else {
+        if (IsValidPosition(ActivePiece, spawnPosition))
+        {
+            Set(ActivePiece);
+        }
+        else
+        {
             GameOver();
         }
     }
 
     public void GameOver()
     {
-        tilemap.ClearAllTiles();
+        Tilemap.ClearAllTiles();
+        GameManager.Instance.ExitGame();
 
         // Do anything else you want on game over here..
     }
@@ -61,7 +78,7 @@ public class Board : MonoBehaviour
         for (int i = 0; i < piece.cells.Length; i++)
         {
             Vector3Int tilePosition = piece.cells[i] + piece.position;
-            tilemap.SetTile(tilePosition, piece.data.tile);
+            Tilemap.SetTile(tilePosition, piece.data.tile);
         }
     }
 
@@ -70,7 +87,7 @@ public class Board : MonoBehaviour
         for (int i = 0; i < piece.cells.Length; i++)
         {
             Vector3Int tilePosition = piece.cells[i] + piece.position;
-            tilemap.SetTile(tilePosition, null);
+            Tilemap.SetTile(tilePosition, null);
         }
     }
 
@@ -84,12 +101,14 @@ public class Board : MonoBehaviour
             Vector3Int tilePosition = piece.cells[i] + position;
 
             // An out of bounds tile is invalid
-            if (!bounds.Contains((Vector2Int)tilePosition)) {
+            if (!bounds.Contains((Vector2Int)tilePosition))
+            {
                 return false;
             }
 
             // A tile already occupies the position, thus invalid
-            if (tilemap.HasTile(tilePosition)) {
+            if (Tilemap.HasTile(tilePosition))
+            {
                 return false;
             }
         }
@@ -107,9 +126,12 @@ public class Board : MonoBehaviour
         {
             // Only advance to the next row if the current is not cleared
             // because the tiles above will fall down when a row is cleared
-            if (IsLineFull(row)) {
+            if (IsLineFull(row))
+            {
                 LineClear(row);
-            } else {
+            }
+            else
+            {
                 row++;
             }
         }
@@ -124,7 +146,8 @@ public class Board : MonoBehaviour
             Vector3Int position = new Vector3Int(col, row, 0);
 
             // The line is not full if a tile is missing
-            if (!tilemap.HasTile(position)) {
+            if (!Tilemap.HasTile(position))
+            {
                 return false;
             }
         }
@@ -140,7 +163,7 @@ public class Board : MonoBehaviour
         for (int col = bounds.xMin; col < bounds.xMax; col++)
         {
             Vector3Int position = new Vector3Int(col, row, 0);
-            tilemap.SetTile(position, null);
+            Tilemap.SetTile(position, null);
         }
 
         // Shift every row above down one
@@ -149,14 +172,13 @@ public class Board : MonoBehaviour
             for (int col = bounds.xMin; col < bounds.xMax; col++)
             {
                 Vector3Int position = new Vector3Int(col, row + 1, 0);
-                TileBase above = tilemap.GetTile(position);
+                TileBase above = Tilemap.GetTile(position);
 
                 position = new Vector3Int(col, row, 0);
-                tilemap.SetTile(position, above);
+                Tilemap.SetTile(position, above);
             }
 
             row++;
         }
     }
-
 }

@@ -29,12 +29,12 @@ namespace Folders_By_Name.Itai.Scripts.BoardComponents
             if (Random.Range(0, 2) == 0)
             {
                 var product = GroceriesPool.Instance.Get();
-                product.GetComponent<SpriteRenderer>().sprite = grocerySprites[Random.Range(0, grocerySprites.Length)];
+                // product.GetComponent<SpriteRenderer>().sprite = grocerySprites[Random.Range(0, grocerySprites.Length)];
             }
             else
             {
                 var obstacle = ObstaclePool.Instance.Get();
-                obstacle.GetComponent<SpriteRenderer>().sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
+                // obstacle.GetComponent<SpriteRenderer>().sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
             }
         }
     }
