@@ -3,7 +3,7 @@ using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoSingleton<GameManager>
 {
     public static GameManager Instance { get; private set; }
 

@@ -68,7 +68,7 @@ public class Board : MonoBehaviour
     public void GameOver()
     {
         Tilemap.ClearAllTiles();
-        GameManager.Instance.ExitGame();
+        // GameManager.Instance.ExitGame();
 
         // Do anything else you want on game over here..
     }

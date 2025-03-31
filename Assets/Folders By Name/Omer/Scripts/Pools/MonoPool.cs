@@ -4,7 +4,7 @@ using Mono_Pool;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MonoPool<T> : MonoSingleton<MonoPool<T>> where T : MonoBehaviour, IPoolableObject
+public class MonoPool<T> : MonoSingleton<MonoPool<T>> where T : MonoBehaviour, IPoolable
 {
     [SerializeField]
     private int initialSize;

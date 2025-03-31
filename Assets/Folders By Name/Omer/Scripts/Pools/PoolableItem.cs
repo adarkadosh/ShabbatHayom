@@ -2,7 +2,7 @@ using System;
 using Mono_Pool;
 using UnityEngine;
 
-public class PoolableItem : MonoBehaviour, IPoolableObject
+public class PoolableItem : MonoBehaviour, IPoolable
 {
     public float speed = 5f;
     private bool _shouldMove = false;
