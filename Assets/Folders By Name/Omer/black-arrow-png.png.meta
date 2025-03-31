@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      black-arrow-png_0: 5716935931515409584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
