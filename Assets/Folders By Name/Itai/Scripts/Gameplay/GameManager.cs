@@ -1,3 +1,4 @@
+/*
 using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 
@@ -22,5 +23,7 @@ namespace Folders_By_Name.Itai.Scripts.Gameplay
         {
             
         }
+        
     }
 }
+*/

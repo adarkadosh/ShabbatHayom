@@ -1,3 +1,4 @@
+using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 
 namespace Folders_By_Name.Itai.Scripts.Cart
@@ -21,6 +22,20 @@ namespace Folders_By_Name.Itai.Scripts.Cart
                 if (_laneNumber >= 2) return;
                 _laneNumber++;
                 transform.position += Vector3.right * 4;
+            }
+        }
+        
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Obstacle"))
+            {
+                MyEvents.OnObstacleHit?.Invoke();
+            }
+            else if (other.CompareTag("Product"))
+            {
+                // MyEvents.OnProductCollected?.Invoke(other.GetComponent<SpriteRenderer>().sprite);
+                MyEvents.OnProductCollected?.Invoke();
+                other.gameObject.SetActive(false);
             }
         }
     }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9a90e837e302a4b69b3bce6f8cff169d
+guid: 9512b477fc16b45a190123cca0a0039e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1494836850492170929
-    second: Ghost 2_0
+      213: 10724651961027260
+    second: Asset 14_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost 2_0
+      name: Asset 14_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 192
-        height: 192
+        width: 301
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b2efbe023abeb410800000000000000
-      internalID: 1494836850492170929
+      spriteID: cba0a7e930a162000800000000000000
+      internalID: 10724651961027260
       vertices: []
       indices: 
       edges: []

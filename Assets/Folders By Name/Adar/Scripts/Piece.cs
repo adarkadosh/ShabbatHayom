@@ -1,3 +1,5 @@
+using System;
+using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 
 public class Piece : MonoBehaviour
@@ -36,6 +38,11 @@ public class Piece : MonoBehaviour
         }
     }
 
+    // private void OnEnable()
+    // {
+    //     MyEvents.OnProductCollected += board.SpawnPiece;
+    // }
+
     private void Update()
     {
         board.Clear(this);
@@ -45,9 +52,9 @@ public class Piece : MonoBehaviour
         lockTime += Time.deltaTime;
 
         // Handle rotation
-        if (Input.GetKeyDown(KeyCode.Q)) {
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
             Rotate(-1);
-        } else if (Input.GetKeyDown(KeyCode.E)) {
+        } else if (Input.GetKeyDown(KeyCode.DownArrow)) {
             Rotate(1);
         }
 
@@ -73,18 +80,18 @@ public class Piece : MonoBehaviour
     private void HandleMoveInputs()
     {
         // Soft drop movement
-        if (Input.GetKey(KeyCode.S))
-        {
-            if (Move(Vector2Int.down)) {
+        // if (Input.GetKey(KeyCode.S))
+        // {
+            // if (Move(Vector2Int.down)) {
                 // Update the step time to prevent double movement
-                stepTime = Time.time + stepDelay;
-            }
-        }
+                // stepTime = Time.time + stepDelay;
+            // }
+        // }
 
         // Left/right movement
-        if (Input.GetKey(KeyCode.A)) {
+        if (Input.GetKey(KeyCode.LeftArrow)) {
             Move(Vector2Int.left);
-        } else if (Input.GetKey(KeyCode.D)) {
+        } else if (Input.GetKey(KeyCode.RightArrow)) {
             Move(Vector2Int.right);
         }
     }
@@ -116,6 +123,7 @@ public class Piece : MonoBehaviour
         board.Set(this);
         board.ClearLines();
         board.SpawnPiece();
+        // board.stopPiece = true;
     }
 
     private bool Move(Vector2Int translation)
