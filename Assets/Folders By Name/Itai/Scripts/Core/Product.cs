@@ -1,8 +1,5 @@
-using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 
-namespace Folders_By_Name.Itai.Scripts.BoardComponents
-{
     public class Product : MonoBehaviour, IPoolable
     { 
         private float _speed = 5f;
@@ -33,4 +30,4 @@ namespace Folders_By_Name.Itai.Scripts.BoardComponents
             transform.position = _startPositions[Random.Range(0, _startPositions.Length)];
         }
     }
-}
+
