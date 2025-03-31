@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public MonoPool<PoolableItem> itemPool;
-
     // Update is called once per frame
+    [SerializeField] private Transform _spawnPoint;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            var item = Itewne.Instance.Get();
-            // Optionally, set the position or other properties of the item here
+            var item = ItemPool.Instance.Get();
+            item.transform.position = _spawnPoint.position;
+            
+    // Optionally, set the position or other properties of the item here
         }
     }
 }

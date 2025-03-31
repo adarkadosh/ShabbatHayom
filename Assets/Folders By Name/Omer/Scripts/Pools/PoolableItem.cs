@@ -30,7 +30,7 @@ public class PoolableItem : MonoBehaviour, IPoolableObject
         else if (other.CompareTag($"Destroyer"))
         {
             _shouldMove = false;
-            MonoPool<PoolableItem>.Instance.Return(this);
+            ItemPool.Instance.Return(this);
         }
     }
 }
