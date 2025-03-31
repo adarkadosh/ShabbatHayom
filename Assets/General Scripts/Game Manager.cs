@@ -1,33 +1,17 @@
 using System;
-using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoSingleton<GameManager>
 {
-    public static GameManager Instance { get; private set; }
-
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-    
     private void OnEnable()
     {
-        MyEvents.OnObstacleHit += ExitGame;
+        GameEvents.OnObstacleHit += ExitGame;
     }
-    
+
     private void OnDisable()
     {
-        MyEvents.OnObstacleHit -= ExitGame;
+        GameEvents.OnObstacleHit -= ExitGame;
     }
 
     private void Update()
@@ -43,21 +27,21 @@ public class GameManager : MonoSingleton<GameManager>
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    
+
 
     private void Start()
     {
         // Initialize game state or other components here
     }
-    
+
     public void ExitGame()
     {
         // Handle game exit logic here
         Debug.Log("Game Over! Exiting...");
         Application.Quit();
-        
-        #if UNITY_EDITOR
+
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #endif
+#endif
     }
 }
