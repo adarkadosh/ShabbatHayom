@@ -1,5 +1,4 @@
 using System;
-using Folders_By_Name.Itai.Scripts.Abstract;
 using UnityEngine;
 
 public class Piece : MonoBehaviour
@@ -29,11 +28,13 @@ public class Piece : MonoBehaviour
         moveTime = Time.time + moveDelay;
         lockTime = 0f;
 
-        if (cells == null) {
+        if (cells == null)
+        {
             cells = new Vector3Int[data.cells.Length];
         }
 
-        for (int i = 0; i < cells.Length; i++) {
+        for (int i = 0; i < cells.Length; i++)
+        {
             cells[i] = (Vector3Int)data.cells[i];
         }
     }
@@ -52,25 +53,31 @@ public class Piece : MonoBehaviour
         lockTime += Time.deltaTime;
 
         // Handle rotation
-        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
             Rotate(-1);
-        } else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
             Rotate(1);
         }
 
         // Handle hard drop
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
             HardDrop();
         }
 
         // Allow the player to hold movement keys but only after a move delay
         // so it does not move too fast
-        if (Time.time > moveTime) {
+        if (Time.time > moveTime)
+        {
             HandleMoveInputs();
         }
 
         // Advance the piece to the next row every x seconds
-        if (Time.time > stepTime) {
+        if (Time.time > stepTime)
+        {
             Step();
         }
 
@@ -82,16 +89,19 @@ public class Piece : MonoBehaviour
         // Soft drop movement
         // if (Input.GetKey(KeyCode.S))
         // {
-            // if (Move(Vector2Int.down)) {
-                // Update the step time to prevent double movement
-                // stepTime = Time.time + stepDelay;
-            // }
+        // if (Move(Vector2Int.down)) {
+        // Update the step time to prevent double movement
+        // stepTime = Time.time + stepDelay;
+        // }
         // }
 
         // Left/right movement
-        if (Input.GetKey(KeyCode.LeftArrow)) {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
             Move(Vector2Int.left);
-        } else if (Input.GetKey(KeyCode.RightArrow)) {
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
             Move(Vector2Int.right);
         }
     }
@@ -104,14 +114,16 @@ public class Piece : MonoBehaviour
         Move(Vector2Int.down);
 
         // Once the piece has been inactive for too long it becomes locked
-        if (lockTime >= lockDelay) {
+        if (lockTime >= lockDelay)
+        {
             Lock();
         }
     }
 
     private void HardDrop()
     {
-        while (Move(Vector2Int.down)) {
+        while (Move(Vector2Int.down))
+        {
             continue;
         }
 
@@ -203,7 +215,8 @@ public class Piece : MonoBehaviour
         {
             Vector2Int translation = data.wallKicks[wallKickIndex, i];
 
-            if (Move(translation)) {
+            if (Move(translation))
+            {
                 return true;
             }
         }
@@ -215,7 +228,8 @@ public class Piece : MonoBehaviour
     {
         int wallKickIndex = rotationIndex * 2;
 
-        if (rotationDirection < 0) {
+        if (rotationDirection < 0)
+        {
             wallKickIndex--;
         }
 
@@ -224,11 +238,13 @@ public class Piece : MonoBehaviour
 
     private int Wrap(int input, int min, int max)
     {
-        if (input < min) {
+        if (input < min)
+        {
             return max - (min - input) % (max - min);
-        } else {
+        }
+        else
+        {
             return min + (input - min) % (max - min);
         }
     }
-
 }
