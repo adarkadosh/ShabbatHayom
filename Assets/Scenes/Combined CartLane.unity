@@ -222,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &466622171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1143,9 +1143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aedf6636ca71394a8d087aede23c8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialPoolSize: 10
+  initialPoolSize: 1
   prefab: {fileID: 7146968995180755476, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
-  poolParent: {fileID: 1769954457}
+  poolParent: {fileID: 0}
 --- !u!4 &1769954457
 Transform:
   m_ObjectHideFlags: 0
@@ -1190,9 +1190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0666bf7ab8ef7754ea706ae9fbeb842a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialPoolSize: 10
+  initialPoolSize: 1
   prefab: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-  poolParent: {fileID: 1777226236}
+  poolParent: {fileID: 0}
 --- !u!4 &1777226236
 Transform:
   m_ObjectHideFlags: 0

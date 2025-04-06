@@ -74,18 +74,19 @@ public class Board : MonoBehaviour
 
     public void Set(Piece piece)
     {
-        for (int i = 0; i < piece.cells.Length; i++)
+        for (int i = 0; i < piece.Cells.Length; i++)
         {
-            Vector3Int tilePosition = piece.cells[i] + piece.position;
-            Tilemap.SetTile(tilePosition, piece.data.tile);
+            Vector3Int tilePosition = piece.Cells[i] + piece.Position;
+            Tile tile = piece.Data.tiles.Length > i ? piece.Data.tiles[i] : piece.Data.tiles[0];
+            Tilemap.SetTile(tilePosition, tile);
         }
     }
 
     public void Clear(Piece piece)
     {
-        for (int i = 0; i < piece.cells.Length; i++)
+        for (int i = 0; i < piece.Cells.Length; i++)
         {
-            Vector3Int tilePosition = piece.cells[i] + piece.position;
+            Vector3Int tilePosition = piece.Cells[i] + piece.Position;
             Tilemap.SetTile(tilePosition, null);
         }
     }
@@ -95,9 +96,9 @@ public class Board : MonoBehaviour
         RectInt bounds = Bounds;
 
         // The position is only valid if every cell is valid
-        for (int i = 0; i < piece.cells.Length; i++)
+        for (int i = 0; i < piece.Cells.Length; i++)
         {
-            Vector3Int tilePosition = piece.cells[i] + position;
+            Vector3Int tilePosition = piece.Cells[i] + position;
 
             // An out of bounds tile is invalid
             if (!bounds.Contains((Vector2Int)tilePosition))
