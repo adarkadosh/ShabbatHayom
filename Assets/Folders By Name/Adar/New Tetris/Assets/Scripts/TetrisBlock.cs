@@ -44,6 +44,7 @@ public class TetrisBlock : MonoBehaviour
                 CheckForLines();
 
                 this.enabled = false;
+                
                 // FindObjectOfType<SpawnTetromino>().NewTetromino();
                 // MyEvents.GameOver();
 

@@ -20,14 +20,14 @@ public class SpawnManager : MonoSingleton<SpawnManager>
 
     private readonly bool[] _laneOccupied = new bool[3];
     private readonly Vector3[] _productStartPositions = {
-        new(-3.7f, 10, 0),
-        new(0, 10, 0),
-        new(3.7f, 10, 0)
+        new(-17.2f, 10, 0),
+        new(-13.5f, 10, 0),
+        new(-9.8f, 10, 0)
     };
     private readonly Vector3[] _obstacleStartPositions = {
-        new(-3.7f, 15, 0),
-        new(0, 15, 0),
-        new(3.7f, 15, 0)
+        new(-17.2f, 15, 0),
+        new(-13.5f, 15, 0),
+        new(-9.8f, 15, 0)
     };
     
     private void Start()
