@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d72bad55ced2854f828f2b3605cc3a4
+guid: dc205e0e4a2cf3140b40c61989976153
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8921311681966709084
-    second: SuperMarket_0
+      213: 3861473606003416524
+    second: SuperMarketUpdated_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SuperMarket_0
+      name: SuperMarketUpdated_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a6e4d9da42213480800000000000000
-      internalID: -8921311681966709084
+      spriteID: ccd516329c5b69530800000000000000
+      internalID: 3861473606003416524
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SuperMarket_0: -8921311681966709084
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

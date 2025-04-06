@@ -1,25 +1,29 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SpawnManager : MonoSingleton<SpawnManager>
 {
     [Header("Timers")]
-    [SerializeField] private float obstacleSpawnInterval = 2f;
-    [SerializeField] private float productSpawnInterval = 1f;
+    [SerializeField] private float obstacleSpawnInterval = 4f;
+    [SerializeField] private float productSpawnInterval = 2f;
     [SerializeField] private float speedIncreaseInterval = 10f;
 
     [Header("Movement")]
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float speedIncreaseAmount = 1f;
+    [SerializeField] private float speedUpAmount = 0.5f;
+    
+    [Header("Spawn Factors")]
+    [SerializeField] private float obstacleSpawnFactor = 0.96f;
+    [SerializeField] private float productSpawnFactor = 0.96f;
+
+    public float speed = 5f;
 
     private readonly bool[] _laneOccupied = new bool[3];
-    
     private readonly Vector3[] _productStartPositions = {
         new(-3.7f, 10, 0),
         new(0, 10, 0),
         new(3.7f, 10, 0)
     };
-    
     private readonly Vector3[] _obstacleStartPositions = {
         new(-3.7f, 15, 0),
         new(0, 15, 0),
@@ -66,8 +70,10 @@ public class SpawnManager : MonoSingleton<SpawnManager>
         while (true)
         {
             yield return new WaitForSeconds(speedIncreaseInterval);
-            GameEvents.OnSpeedUp.Invoke();
-            moveSpeed += speedIncreaseAmount;
+            // GameEvents.OnSpeedUp.Invoke();
+            speed += speedUpAmount;
+            obstacleSpawnInterval *= obstacleSpawnFactor; // Decrease spawn interval by 10%
+            productSpawnInterval *= productSpawnFactor; // Decrease spawn interval by 10%
         }
     }
 

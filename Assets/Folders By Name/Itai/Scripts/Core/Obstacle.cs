@@ -1,10 +1,8 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Obstacle : MonoBehaviour, IPoolable
-{
-    private static float _speed = 5f;
+{ 
     private SpriteRenderer _spriteRenderer;
     
     [SerializeField] private Sprite[] obstacleSprites;
@@ -15,29 +13,15 @@ public class Obstacle : MonoBehaviour, IPoolable
         _spriteRenderer.sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
     }
 
-    private void OnEnable()
-    {
-        GameEvents.OnSpeedUp += SpeedItUp;
-    }
-    
-    private void OnDisable()
-    {
-        GameEvents.OnSpeedUp -= SpeedItUp;
-    }
-
-    private void SpeedItUp()
-    {
-        _speed += 0.5f;
-    }
-
     private void FixedUpdate()
     {
-        transform.position += Vector3.down * (Time.fixedDeltaTime * _speed);
+        transform.Translate(Vector3.down * (SpawnManager.Instance.speed * Time.deltaTime));
         if (transform.position.y < -15)
         {
             ObstaclePool.Instance.Return(this);
         }
     }
+
 
     public void Reset()
     {

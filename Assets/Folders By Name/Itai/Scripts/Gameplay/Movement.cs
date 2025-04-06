@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
             if (_laneNumber > 0)
             {
                 _laneNumber--;
-                transform.position += Vector3.left * 4;
+                transform.position += Vector3.left * 3.7f;
             }
         }
 
@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour
         {
             if (_laneNumber >= 2) return;
             _laneNumber++;
-            transform.position += Vector3.right * 4;
+            transform.position += Vector3.right * 3.7f;
         }
     }
 
