@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class Obstacle : MonoBehaviour, IPoolable
 {
-    private float _speed = 5f;
+    private static float _speed = 5f;
     private SpriteRenderer _spriteRenderer;
     
     [SerializeField] private Sprite[] obstacleSprites;
@@ -43,7 +43,7 @@ public class Obstacle : MonoBehaviour, IPoolable
     {
         _spriteRenderer.sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
         var size = _spriteRenderer.size;
-        size.y = Random.Range(10f, 25f);
+        size.y = Random.Range(8f, 15f);
         _spriteRenderer.size = size;
     }
 }

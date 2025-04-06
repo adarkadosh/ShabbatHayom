@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 1734957421}
   - component: {fileID: 1734957423}
   m_Layer: 0
-  m_Name: BoardManager
+  m_Name: SpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,11 +1385,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 9.58
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: -3.94
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1442,11 +1442,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 13.52
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.z

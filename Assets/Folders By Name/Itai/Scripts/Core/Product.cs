@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class Product : MonoBehaviour, IPoolable
     { 
-        private float _speed = 5f;
+        private static float _speed = 5f;
         private SpriteRenderer _spriteRenderer;
         private Products _productType;
         
@@ -50,6 +50,7 @@ public class Product : MonoBehaviour, IPoolable
         
         private void OnTriggerEnter2D(Collider2D other)
         {
+            if (!other.CompareTag("Player")) return;
             GameEvents.OnProductCollected.Invoke(_productType);
             GroceriesPool.Instance.Return(this);
         }
