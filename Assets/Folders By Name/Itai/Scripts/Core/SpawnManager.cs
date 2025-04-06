@@ -3,37 +3,43 @@ using UnityEngine;
 
 public class SpawnManager : MonoSingleton<SpawnManager>
 {
-    [Header("Lanes")]
-    public float[] laneXPositions = { -2f, 0f, 2f }; // X positions for 3 lanes
-    
     [Header("Timers")]
-    public float obstacleSpawnInterval = 2f;
-    public float productSpawnInterval = 1f;
-    public float speedIncreaseInterval = 10f;
-    [SerializeField] private float spawnIntervalVariation = 0.5f;
+    [SerializeField] private float obstacleSpawnInterval = 2f;
+    [SerializeField] private float productSpawnInterval = 1f;
+    [SerializeField] private float speedIncreaseInterval = 10f;
 
     [Header("Movement")]
-    public float moveSpeed = 5f;
-    public float speedIncreaseAmount = 1f;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float speedIncreaseAmount = 1f;
 
-    private bool[] laneOccupied = new bool[3];
-
-    private float _nextSpawnTime;
-
+    private readonly bool[] _laneOccupied = new bool[3];
+    
+    private readonly Vector3[] _productStartPositions = {
+        new(-3.7f, 10, 0),
+        new(0, 10, 0),
+        new(3.7f, 10, 0)
+    };
+    
+    private readonly Vector3[] _obstacleStartPositions = {
+        new(-3.7f, 15, 0),
+        new(0, 15, 0),
+        new(3.7f, 15, 0)
+    };
+    
     private void Start()
     {
         StartCoroutine(ObstacleSpawnRoutine());
         StartCoroutine(ProductSpawnRoutine());
         StartCoroutine(SpeedIncreaseRoutine());
     }
-    
-    IEnumerator ObstacleSpawnRoutine()
+
+    private IEnumerator ObstacleSpawnRoutine()
     {
         while (true)
         {
             yield return new WaitForSeconds(obstacleSpawnInterval);
 
-            int lane = GetFreeLane();
+            var lane = GetFreeLane();
             if (lane != -1)
             {
                 SpawnObstacle(lane);
@@ -41,13 +47,13 @@ public class SpawnManager : MonoSingleton<SpawnManager>
         }
     }
 
-    IEnumerator ProductSpawnRoutine()
+    private IEnumerator ProductSpawnRoutine()
     {
         while (true)
         {
             yield return new WaitForSeconds(productSpawnInterval);
 
-            int lane = GetFreeLane();
+            var lane = GetFreeLane();
             if (lane != -1)
             {
                 SpawnProduct(lane);
@@ -55,71 +61,49 @@ public class SpawnManager : MonoSingleton<SpawnManager>
         }
     }
 
-    IEnumerator SpeedIncreaseRoutine()
+    private IEnumerator SpeedIncreaseRoutine()
     {
         while (true)
         {
             yield return new WaitForSeconds(speedIncreaseInterval);
+            GameEvents.OnSpeedUp.Invoke();
             moveSpeed += speedIncreaseAmount;
         }
     }
-    
-    int GetFreeLane()
+
+    private int GetFreeLane()
     {
         // Shuffle lanes randomly
         int[] lanes = { 0, 1, 2 };
-        Utils.ShuffleArray(lanes); // A small utility to randomize array order
-
-        foreach (int lane in lanes)
+        foreach (var lane in lanes)
         {
-            if (!laneOccupied[lane])
+            if (!_laneOccupied[lane])
                 return lane;
         }
-
         return -1; // No free lane
     }
 
-    void SpawnObstacle(int lane)
+    private void SpawnObstacle(int lane)
     {
-        Vector3 spawnPos = new Vector3(laneXPositions[lane], transform.position.y, 0f);
-        Obstacle obstacle = ObstaclePool.Instance.Get();
+        var spawnPos = _obstacleStartPositions[Random.Range(0, _obstacleStartPositions.Length)];
+        var obstacle = ObstaclePool.Instance.Get();
         obstacle.transform.position = spawnPos;
-        obstacle.SetActive(true);
-        laneOccupied[lane] = true;
+        _laneOccupied[lane] = true;
         StartCoroutine(FreeLaneAfterDelay(lane, 2f)); // 2 seconds until lane is free again
     }
 
-    void SpawnProduct(int lane)
+    private void SpawnProduct(int lane)
     {
-        Vector3 spawnPos = new Vector3(laneXPositions[lane], transform.position.y, 0f);
-        GameObject product = ObjectPooler.Instance.GetFromPool("Product");
+        
+        var spawnPos = _productStartPositions[Random.Range(0, _productStartPositions.Length)];
+        var product = GroceriesPool.Instance.Get();
         product.transform.position = spawnPos;
-        product.SetActive(true);
+        product.gameObject.SetActive(true);
     }
 
     IEnumerator FreeLaneAfterDelay(int lane, float delay)
     {
         yield return new WaitForSeconds(delay);
-        laneOccupied[lane] = false;
-    }
-
-    private void Update()
-    {
-        if (!(Time.time >= _nextSpawnTime)) return;
-        Spawn();
-        _nextSpawnTime = Time.time + spawnInterval +
-                         Random.Range(-spawnIntervalVariation, spawnIntervalVariation);
-    }
-
-    private void Spawn()
-    {
-        if (Random.Range(0, 2) == 0)
-        {
-            var product = GroceriesPool.Instance.Get();
-        }
-        else
-        {
-            var obstacle = ObstaclePool.Instance.Get();
-        }
+        _laneOccupied[lane] = false;
     }
 }

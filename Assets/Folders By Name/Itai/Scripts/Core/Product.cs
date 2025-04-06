@@ -10,18 +10,12 @@ public class Product : MonoBehaviour, IPoolable
         private SpriteRenderer _spriteRenderer;
         private Products _productType;
         
-        private readonly Vector3[] _startPositions = {
-            new(-3.7f, 10, 0),
-            new(0, 10, 0),
-            new(3.7f, 10, 0)
-        };
-        
         [SerializeField] private Sprite[] grocerySprites;
         
         private void Awake()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
-            _spriteRenderer.sprite = grocerySprites[Random.Range(0, grocerySprites.Length)];
+            Reset();
         }
 
         private void FixedUpdate()
@@ -40,13 +34,12 @@ public class Product : MonoBehaviour, IPoolable
 
         public void Reset()
         {
-            transform.position = _startPositions[Random.Range(0, _startPositions.Length)];
             var myEnumMemberCount = Enum.GetNames(typeof(Products)).Length;
             var randomIndex = Random.Range(0, myEnumMemberCount);
             _productType = (Products) randomIndex;
             _spriteRenderer.sprite = grocerySprites[randomIndex];
         }
-
+        
         private void OnTriggerEnter2D(Collider2D other)
         {
             GameEvents.OnProductCollected.Invoke(_productType);
