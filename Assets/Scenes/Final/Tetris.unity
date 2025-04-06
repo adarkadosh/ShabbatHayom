@@ -404,6 +404,23 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &2034260037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5784430367012143888, guid: 3516c4d55782e4eab913b14a27e7c820, type: 3}
+  m_PrefabInstance: {fileID: 8319095308799670440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2034260040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034260037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f492ce957809d4a871dfeac3f220a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8319095308799670440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -412,6 +429,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3022161603026893978, guid: 3516c4d55782e4eab913b14a27e7c820, type: 3}
+      propertyPath: productDeque
+      value: 
+      objectReference: {fileID: 2034260040}
     - target: {fileID: 5784430367012143888, guid: 3516c4d55782e4eab913b14a27e7c820, type: 3}
       propertyPath: m_Name
       value: Spawner
@@ -459,7 +480,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5784430367012143888, guid: 3516c4d55782e4eab913b14a27e7c820, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2034260040}
   m_SourcePrefab: {fileID: 100100000, guid: 3516c4d55782e4eab913b14a27e7c820, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

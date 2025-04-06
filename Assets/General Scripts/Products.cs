@@ -5,7 +5,7 @@
     Broccoli,
     Carrot,
     ChickenWing,
-    ChickenDrumstick,
+    ChickenLeg,
     Chilli,
     ChocolateMilk,
     Eggplant,

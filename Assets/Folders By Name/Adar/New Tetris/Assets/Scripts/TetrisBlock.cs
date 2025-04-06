@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -44,7 +45,7 @@ public class TetrisBlock : MonoBehaviour
                 CheckForLines();
 
                 this.enabled = false;
-                
+                GameEvents.TetrisSet?.Invoke();
                 // FindObjectOfType<SpawnTetromino>().NewTetromino();
                 // MyEvents.GameOver();
 
@@ -108,6 +109,12 @@ public class TetrisBlock : MonoBehaviour
         {
             var roundedX = Mathf.RoundToInt(children.transform.position.x);
             var roundedY = Mathf.RoundToInt(children.transform.position.y);
+            
+            if (roundedY >= Height - 2)
+            {
+                Debug.Log("Game Over: Block reached the top!");
+                GameEvents.GameOver?.Invoke();
+            }
 
             Grid[roundedX, roundedY] = children;
         }
