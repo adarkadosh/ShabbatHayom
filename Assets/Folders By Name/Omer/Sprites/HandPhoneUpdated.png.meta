@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: db9aad4ad2d372f44a77945011aaf66a
+guid: 30e6cd836f0dded4fb1b8e8d28fe51f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2171869769579782635
-    second: ConveyorBelt_0
+      213: 4011515615457825316
+    second: HandPhoneUpdated_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ConveyorBelt_0
+      name: HandPhoneUpdated_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1212
-        height: 54
+        width: 498
+        height: 894
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51e99cd93f7fbd1e0800000000000000
-      internalID: -2171869769579782635
+      spriteID: 422db46c234cba730800000000000000
+      internalID: 4011515615457825316
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ConveyorBelt_0: -2171869769579782635
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,7 +11,7 @@ public class SoundManager : MonoSingleton<SoundManager>
     [SerializeField] private AudioClip timerSound;
     [SerializeField] private AudioClip buttonPressedSound;
     [SerializeField] private AudioClip itemScannedSound;
-    private float pitchIncrement = 0.1f;
+    private float pitchIncrement = 0.05f;
     
     private AudioSource backgroundMusicSource;
     private AudioSource soundEffectsSource;
@@ -36,6 +36,7 @@ public class SoundManager : MonoSingleton<SoundManager>
         PauseMenu.OnPauseGame += OnButtonPressed;
         PauseMenu.OnLoadMenu += OnButtonPressed;
         PoolableItem.ItemScanned += OnItemScanned;
+        GameEvents.OnSpeedUp += OnDifficultyChanged;
         GameEvents.OnProductCollected += OnItemSpawned;
     }
     
