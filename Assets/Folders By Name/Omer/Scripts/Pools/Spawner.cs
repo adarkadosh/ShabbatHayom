@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     {
         GameEvents.OnProductCollected += SpawnItem;
     }
-    private void SpawnItem()
+    private void SpawnItem(Products proudct)
     {
         var item = ItemPool.Instance.Get();
         item.transform.position = _spawnPoint.position;

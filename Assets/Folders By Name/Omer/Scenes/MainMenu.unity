@@ -1295,6 +1295,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414113451}
   m_CullTransparentMesh: 1
+--- !u!1 &1476697245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476697247}
+  - component: {fileID: 1476697246}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1476697246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476697245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ab0ecc51334d0a8e24af43e6100126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHitSound: {fileID: 0}
+  itemSpawnSound: {fileID: 8300000, guid: d4cdb5e663713d246b4266084c9e11b8, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: b020cd4cc1d90ab4199d9999ea4e417f, type: 3}
+  timerSound: {fileID: 0}
+  togglePauseSound: {fileID: 8300000, guid: 9e2398b9763668443b13ee00e6a33783, type: 3}
+--- !u!4 &1476697247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476697245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 218.88853, y: 122.18086, z: 0.57085174}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1611122567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,3 +1999,4 @@ SceneRoots:
   - {fileID: 15485650}
   - {fileID: 1841510770}
   - {fileID: 1882957644}
+  - {fileID: 1476697247}
