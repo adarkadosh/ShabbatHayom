@@ -449,7 +449,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1168,8 +1168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a5875378cd96c342893b45bb748fb7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacleSpawnInterval: 2
-  productSpawnInterval: 1
+  obstacleSpawnInterval: 5
+  productSpawnInterval: 2
   speedIncreaseInterval: 10
   moveSpeed: 5
   speedIncreaseAmount: 1
@@ -1608,11 +1608,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.36
+      value: 9.58
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.22
+      value: -3.94
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1665,11 +1665,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.77
+      value: 13.52
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.93
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.z
