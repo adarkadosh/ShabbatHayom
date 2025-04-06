@@ -9,18 +9,22 @@ public class SoundManager : MonoSingleton<SoundManager>
     [SerializeField] private AudioClip itemSpawnSound;
     [SerializeField] private AudioClip backgroundMusic;
     [SerializeField] private AudioClip timerSound;
-    [SerializeField] private AudioClip togglePauseSound;
+    [SerializeField] private AudioClip buttonPressedSound;
+    [SerializeField] private AudioClip itemScannedSound;
     private float pitchIncrement = 0.1f;
-
     
-
     private AudioSource backgroundMusicSource;
     private AudioSource soundEffectsSource;
+    private static bool isBackgroundMusicPlaying = false;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+        DontDestroyOnLoad(gameObject);
+
         backgroundMusicSource = gameObject.AddComponent<AudioSource>();
         soundEffectsSource = gameObject.AddComponent<AudioSource>();
+        OnGameStart();
     }
 
     private void OnEnable()
@@ -28,8 +32,11 @@ public class SoundManager : MonoSingleton<SoundManager>
         // GameManager.Instance.GameStart += OnGameStart;
         // GameManager.Instance.GamePause += OnGamePause;
         // GameManager.Instance.GameResume += OnGamePause;
+        PauseMenu.OnResumeGame += OnButtonPressed;
+        PauseMenu.OnPauseGame += OnButtonPressed;
+        PauseMenu.OnLoadMenu += OnButtonPressed;
+        PoolableItem.ItemScanned += OnItemScanned;
         GameEvents.OnProductCollected += OnItemSpawned;
-        OnGameStart();
     }
     
     private void OnDifficultyChanged()
@@ -39,7 +46,11 @@ public class SoundManager : MonoSingleton<SoundManager>
 
     private void OnGameStart()
     {
-        PlayBackgroundMusic(backgroundMusic);
+        if (!isBackgroundMusicPlaying)
+        {
+            PlayBackgroundMusic(backgroundMusic);
+            isBackgroundMusicPlaying = true;
+        }
     }
 
     private void PlayBackgroundMusic(AudioClip clip)
@@ -49,9 +60,14 @@ public class SoundManager : MonoSingleton<SoundManager>
         backgroundMusicSource.Play();
     }
     
-    private void OnGamePause()
+    public void OnButtonPressed()
     {
-        PlaySoundEffect(togglePauseSound);
+        PlaySoundEffect(buttonPressedSound);
+    }
+    
+    private void OnItemScanned()
+    {
+        PlaySoundEffect(itemScannedSound);
     }
     
     private void OnItemSpawned(Products product)
@@ -69,6 +85,9 @@ public class SoundManager : MonoSingleton<SoundManager>
         // GameManager.Instance.GameStart -= OnGameStart;
         // GameManager.Instance.GamePause -= OnGamePause;
         // GameManager.Instance.GameResume -= OnGamePause;
+        PauseMenu.OnResumeGame -= OnButtonPressed;
+        PauseMenu.OnPauseGame -= OnButtonPressed;
+        PauseMenu.OnLoadMenu -= OnButtonPressed;
         GameEvents.OnProductCollected -= OnItemSpawned;
     }
 }

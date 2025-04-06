@@ -12,7 +12,13 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
     
-    public void HowToPlay()
+    public void HowToPlayMain()
+    {
+        LoadGame();
+        HowToPlayGame();
+    }
+
+    public void HowToPlayGame()
     {
         mainMenuUI.SetActive(_howToPlayActive);
         _howToPlayActive = !_howToPlayActive;
