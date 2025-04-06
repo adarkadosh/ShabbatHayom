@@ -1,28 +1,39 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Obstacle : MonoBehaviour, IPoolable
 {
     private float _speed = 5f;
-    private float _timeToSpeedUp = 5f;
-
-    private readonly Vector3[] _startPositions =
+    private SpriteRenderer _spriteRenderer;
+    
+    [SerializeField] private Sprite[] obstacleSprites;
+    
+    private void Awake()
     {
-        new(-4, 10, 0),
-        new(0, 10, 0),
-        new(4, 10, 0)
-    };
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer.sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
+    }
+
+    private void OnEnable()
+    {
+        GameEvents.OnSpeedUp += SpeedItUp;
+    }
+    
+    private void OnDisable()
+    {
+        GameEvents.OnSpeedUp -= SpeedItUp;
+    }
+
+    private void SpeedItUp()
+    {
+        _speed += 0.5f;
+    }
 
     private void FixedUpdate()
     {
         transform.position += Vector3.down * (Time.fixedDeltaTime * _speed);
-        if (Time.time >= _timeToSpeedUp)
-        {
-            _speed += 0.5f;
-            _timeToSpeedUp += 5f;
-        }
-
-        if (transform.position.y < -8)
+        if (transform.position.y < -15)
         {
             ObstaclePool.Instance.Return(this);
         }
@@ -30,6 +41,9 @@ public class Obstacle : MonoBehaviour, IPoolable
 
     public void Reset()
     {
-        transform.position = _startPositions[Random.Range(0, _startPositions.Length)];
+        _spriteRenderer.sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
+        var size = _spriteRenderer.size;
+        size.y = Random.Range(10f, 25f);
+        _spriteRenderer.size = size;
     }
 }
