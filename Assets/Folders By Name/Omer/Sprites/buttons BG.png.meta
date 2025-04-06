@@ -1,0 +1,7579 @@
+fileFormatVersion: 2
+guid: 79211e480eb86a44aa4a9a3e296b83ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2819709734797547123
+    second: buttons BG_0
+  - first:
+      213: 7178774513342171061
+    second: buttons BG_1
+  - first:
+      213: 475215658919467964
+    second: buttons BG_2
+  - first:
+      213: -7042771882292985152
+    second: buttons BG_3
+  - first:
+      213: 1887680762596816113
+    second: buttons BG_4
+  - first:
+      213: -2106366497284185899
+    second: buttons BG_5
+  - first:
+      213: -8578533665691298861
+    second: buttons BG_6
+  - first:
+      213: -7972515669053459095
+    second: buttons BG_7
+  - first:
+      213: 6028561899224060296
+    second: buttons BG_8
+  - first:
+      213: -5675912474159058157
+    second: buttons BG_9
+  - first:
+      213: 8018772369436083811
+    second: buttons BG_10
+  - first:
+      213: -947358960979799064
+    second: buttons BG_11
+  - first:
+      213: -125048070934132362
+    second: buttons BG_12
+  - first:
+      213: -8861031925755485100
+    second: buttons BG_13
+  - first:
+      213: -5621609840442154277
+    second: buttons BG_14
+  - first:
+      213: 9129877556366710118
+    second: buttons BG_15
+  - first:
+      213: -5837668853114480316
+    second: buttons BG_16
+  - first:
+      213: -3770015760823574036
+    second: buttons BG_17
+  - first:
+      213: -6452122740771479581
+    second: buttons BG_18
+  - first:
+      213: -3737529728259343544
+    second: buttons BG_19
+  - first:
+      213: -7774598978744282902
+    second: buttons BG_20
+  - first:
+      213: 3871647056780479172
+    second: buttons BG_21
+  - first:
+      213: 8679688558503054652
+    second: buttons BG_22
+  - first:
+      213: 3359161076579991940
+    second: buttons BG_23
+  - first:
+      213: -7119232567987620894
+    second: buttons BG_24
+  - first:
+      213: 4735941902876557675
+    second: buttons BG_25
+  - first:
+      213: 6040990902682781606
+    second: buttons BG_26
+  - first:
+      213: 289209990999642482
+    second: buttons BG_27
+  - first:
+      213: -2965403864554472128
+    second: buttons BG_28
+  - first:
+      213: 6215857516105888085
+    second: buttons BG_29
+  - first:
+      213: 8750199119116427602
+    second: buttons BG_30
+  - first:
+      213: 7918769555528032616
+    second: buttons BG_31
+  - first:
+      213: -5668349041134353770
+    second: buttons BG_32
+  - first:
+      213: -5332487409316595157
+    second: buttons BG_33
+  - first:
+      213: 81461539952220472
+    second: buttons BG_34
+  - first:
+      213: 3499078545950027194
+    second: buttons BG_35
+  - first:
+      213: -6517679461684819301
+    second: buttons BG_36
+  - first:
+      213: 7469036393221830782
+    second: buttons BG_37
+  - first:
+      213: 8132313022474622972
+    second: buttons BG_38
+  - first:
+      213: 673325983492310266
+    second: buttons BG_39
+  - first:
+      213: -3506811561875154159
+    second: buttons BG_40
+  - first:
+      213: 2034575686397435475
+    second: buttons BG_41
+  - first:
+      213: 6771902979556912608
+    second: buttons BG_42
+  - first:
+      213: 5672641612460598339
+    second: buttons BG_43
+  - first:
+      213: -6624007628800895853
+    second: buttons BG_44
+  - first:
+      213: -4505623449286044331
+    second: buttons BG_45
+  - first:
+      213: -3788926584117873396
+    second: buttons BG_46
+  - first:
+      213: -3928617549989739109
+    second: buttons BG_47
+  - first:
+      213: -1326659419769399159
+    second: buttons BG_48
+  - first:
+      213: -7785162688204891506
+    second: buttons BG_49
+  - first:
+      213: -6320525427174343438
+    second: buttons BG_50
+  - first:
+      213: 6031007586935556257
+    second: buttons BG_51
+  - first:
+      213: 4013350394989527550
+    second: buttons BG_52
+  - first:
+      213: -8918304034433533991
+    second: buttons BG_53
+  - first:
+      213: -6271639339243087368
+    second: buttons BG_54
+  - first:
+      213: 8618915518570999353
+    second: buttons BG_55
+  - first:
+      213: 3529713075302045922
+    second: buttons BG_56
+  - first:
+      213: 5637047175764950046
+    second: buttons BG_57
+  - first:
+      213: -4190046382339566248
+    second: buttons BG_58
+  - first:
+      213: 2193196143372559303
+    second: buttons BG_59
+  - first:
+      213: 2656122732121509422
+    second: buttons BG_60
+  - first:
+      213: -8267489379501842042
+    second: buttons BG_61
+  - first:
+      213: 3144018205989429669
+    second: buttons BG_62
+  - first:
+      213: 8515679675122468632
+    second: buttons BG_63
+  - first:
+      213: -5821959818730901546
+    second: buttons BG_64
+  - first:
+      213: -5522660653990954503
+    second: buttons BG_65
+  - first:
+      213: -2047480847793126944
+    second: buttons BG_66
+  - first:
+      213: 8118154255278665575
+    second: buttons BG_67
+  - first:
+      213: 628717331764152019
+    second: buttons BG_68
+  - first:
+      213: -6471193212088338220
+    second: buttons BG_69
+  - first:
+      213: 196392156006976467
+    second: buttons BG_70
+  - first:
+      213: -2301690062773318964
+    second: buttons BG_71
+  - first:
+      213: 2639214765021183008
+    second: buttons BG_72
+  - first:
+      213: 2384560384249537964
+    second: buttons BG_73
+  - first:
+      213: -8499810293472393798
+    second: buttons BG_74
+  - first:
+      213: 8718586269078105248
+    second: buttons BG_75
+  - first:
+      213: 8975263879568779602
+    second: buttons BG_76
+  - first:
+      213: 2897769648315765613
+    second: buttons BG_77
+  - first:
+      213: 7695221551762746463
+    second: buttons BG_78
+  - first:
+      213: 4861690514424077227
+    second: buttons BG_79
+  - first:
+      213: -6148972814739088478
+    second: buttons BG_80
+  - first:
+      213: -1488515360225202003
+    second: buttons BG_81
+  - first:
+      213: -5053577411832232975
+    second: buttons BG_82
+  - first:
+      213: 289403670801081523
+    second: buttons BG_83
+  - first:
+      213: 705430885041441261
+    second: buttons BG_84
+  - first:
+      213: -1072493747131675471
+    second: buttons BG_85
+  - first:
+      213: 2721381124919686847
+    second: buttons BG_86
+  - first:
+      213: -8973217090072991629
+    second: buttons BG_87
+  - first:
+      213: -73174390291211946
+    second: buttons BG_88
+  - first:
+      213: 9175160318960455406
+    second: buttons BG_89
+  - first:
+      213: -5155649228446283521
+    second: buttons BG_90
+  - first:
+      213: 8593118650842776145
+    second: buttons BG_91
+  - first:
+      213: -2221152909847793540
+    second: buttons BG_92
+  - first:
+      213: -8520668689009586061
+    second: buttons BG_93
+  - first:
+      213: -1285416168762874125
+    second: buttons BG_94
+  - first:
+      213: 6520732792125005179
+    second: buttons BG_95
+  - first:
+      213: -4020138734499466437
+    second: buttons BG_96
+  - first:
+      213: 4677297780992706994
+    second: buttons BG_97
+  - first:
+      213: -6242873796121552770
+    second: buttons BG_98
+  - first:
+      213: -3236970372286658404
+    second: buttons BG_99
+  - first:
+      213: -178849876117980934
+    second: buttons BG_100
+  - first:
+      213: -3018583653895570175
+    second: buttons BG_101
+  - first:
+      213: 4760888159651916415
+    second: buttons BG_102
+  - first:
+      213: -1053042530984420311
+    second: buttons BG_103
+  - first:
+      213: 4836585534606476436
+    second: buttons BG_104
+  - first:
+      213: 3331222488312138423
+    second: buttons BG_105
+  - first:
+      213: -6445056604669075054
+    second: buttons BG_106
+  - first:
+      213: 1315932570165043103
+    second: buttons BG_107
+  - first:
+      213: -6088050592291711448
+    second: buttons BG_108
+  - first:
+      213: -3300056023647621235
+    second: buttons BG_109
+  - first:
+      213: 8736529882959417900
+    second: buttons BG_110
+  - first:
+      213: 3133462249452432184
+    second: buttons BG_111
+  - first:
+      213: 1538282269818323917
+    second: buttons BG_112
+  - first:
+      213: 7370988548710548157
+    second: buttons BG_113
+  - first:
+      213: -7101799058478506156
+    second: buttons BG_114
+  - first:
+      213: 8792200753242571023
+    second: buttons BG_115
+  - first:
+      213: -5184219891849101595
+    second: buttons BG_116
+  - first:
+      213: 4790071578731660715
+    second: buttons BG_117
+  - first:
+      213: 4834478004007898593
+    second: buttons BG_118
+  - first:
+      213: 2789649317267389025
+    second: buttons BG_119
+  - first:
+      213: 3304946224310356808
+    second: buttons BG_120
+  - first:
+      213: -1378186589975094261
+    second: buttons BG_121
+  - first:
+      213: -2413844336027843730
+    second: buttons BG_122
+  - first:
+      213: 8860469335365819713
+    second: buttons BG_123
+  - first:
+      213: 5929111435435181384
+    second: buttons BG_124
+  - first:
+      213: -3197978756636190180
+    second: buttons BG_125
+  - first:
+      213: 7282469861706938085
+    second: buttons BG_126
+  - first:
+      213: -692624528701989311
+    second: buttons BG_127
+  - first:
+      213: 6352835771557975039
+    second: buttons BG_128
+  - first:
+      213: -4109223732351749176
+    second: buttons BG_129
+  - first:
+      213: -3917679225156608928
+    second: buttons BG_130
+  - first:
+      213: 245892000963686728
+    second: buttons BG_131
+  - first:
+      213: -8809206819940906913
+    second: buttons BG_132
+  - first:
+      213: -8812754243169880873
+    second: buttons BG_133
+  - first:
+      213: -446462151494629390
+    second: buttons BG_134
+  - first:
+      213: 8862143265723711023
+    second: buttons BG_135
+  - first:
+      213: -8740600463777464227
+    second: buttons BG_136
+  - first:
+      213: 8118617325472639936
+    second: buttons BG_137
+  - first:
+      213: 5025271185438822148
+    second: buttons BG_138
+  - first:
+      213: 2320883403641098908
+    second: buttons BG_139
+  - first:
+      213: 8887371210654408956
+    second: buttons BG_140
+  - first:
+      213: -3108973339870749357
+    second: buttons BG_141
+  - first:
+      213: 2929440843500109472
+    second: buttons BG_142
+  - first:
+      213: 3689518930096063906
+    second: buttons BG_143
+  - first:
+      213: 719983483225469627
+    second: buttons BG_144
+  - first:
+      213: -7194478985358197358
+    second: buttons BG_145
+  - first:
+      213: -4247667983805278742
+    second: buttons BG_146
+  - first:
+      213: 6186402963934475082
+    second: buttons BG_147
+  - first:
+      213: -4570283773130132343
+    second: buttons BG_148
+  - first:
+      213: -3303520706904997835
+    second: buttons BG_149
+  - first:
+      213: -2246643721043077411
+    second: buttons BG_150
+  - first:
+      213: -9091097734997456298
+    second: buttons BG_151
+  - first:
+      213: -4966944007674729881
+    second: buttons BG_152
+  - first:
+      213: -868424257424338547
+    second: buttons BG_153
+  - first:
+      213: -7015848444180987934
+    second: buttons BG_154
+  - first:
+      213: 325184130406511057
+    second: buttons BG_155
+  - first:
+      213: 8605669669152179311
+    second: buttons BG_156
+  - first:
+      213: 7088797724486955926
+    second: buttons BG_157
+  - first:
+      213: 222440914501396696
+    second: buttons BG_158
+  - first:
+      213: -8338281708845374336
+    second: buttons BG_159
+  - first:
+      213: 2707443355538343565
+    second: buttons BG_160
+  - first:
+      213: 1947648308438299330
+    second: buttons BG_161
+  - first:
+      213: -1675163738643205133
+    second: buttons BG_162
+  - first:
+      213: -4088061264050441561
+    second: buttons BG_163
+  - first:
+      213: 4547497747764121468
+    second: buttons BG_164
+  - first:
+      213: -1512276647836441977
+    second: buttons BG_165
+  - first:
+      213: 7667348321783833380
+    second: buttons BG_166
+  - first:
+      213: 9099186581192379543
+    second: buttons BG_167
+  - first:
+      213: -3156081806623470900
+    second: buttons BG_168
+  - first:
+      213: 3872603895058211550
+    second: buttons BG_169
+  - first:
+      213: -4467357311902149737
+    second: buttons BG_170
+  - first:
+      213: 3729785799420368682
+    second: buttons BG_171
+  - first:
+      213: 6897819570777012057
+    second: buttons BG_172
+  - first:
+      213: 287110185537106291
+    second: buttons BG_173
+  - first:
+      213: 32831444210229136
+    second: buttons BG_174
+  - first:
+      213: 8176180222961203519
+    second: buttons BG_175
+  - first:
+      213: 1704271493315315767
+    second: buttons BG_176
+  - first:
+      213: 2081233797108494705
+    second: buttons BG_177
+  - first:
+      213: 7273887888797980293
+    second: buttons BG_178
+  - first:
+      213: -8141590796941824002
+    second: buttons BG_179
+  - first:
+      213: -588535878216635978
+    second: buttons BG_180
+  - first:
+      213: -3076465933445657828
+    second: buttons BG_181
+  - first:
+      213: 2030534955499900623
+    second: buttons BG_182
+  - first:
+      213: -1136854213656963484
+    second: buttons BG_183
+  - first:
+      213: 6285184448854166739
+    second: buttons BG_184
+  - first:
+      213: -1502614814745344062
+    second: buttons BG_185
+  - first:
+      213: -7877736631724859131
+    second: buttons BG_186
+  - first:
+      213: 4763929807993292555
+    second: buttons BG_187
+  - first:
+      213: -5979763122461465465
+    second: buttons BG_188
+  - first:
+      213: -5503875240599809602
+    second: buttons BG_189
+  - first:
+      213: 7501067428716776498
+    second: buttons BG_190
+  - first:
+      213: 2001225253397069945
+    second: buttons BG_191
+  - first:
+      213: 3007747415077021907
+    second: buttons BG_192
+  - first:
+      213: -910368789660239859
+    second: buttons BG_193
+  - first:
+      213: 6513758630892447024
+    second: buttons BG_194
+  - first:
+      213: 3982196577216505050
+    second: buttons BG_195
+  - first:
+      213: 8820292564583192424
+    second: buttons BG_196
+  - first:
+      213: -7207888426855185333
+    second: buttons BG_197
+  - first:
+      213: -7163077032430823563
+    second: buttons BG_198
+  - first:
+      213: -4019845743935188326
+    second: buttons BG_199
+  - first:
+      213: 7439959063160558495
+    second: buttons BG_200
+  - first:
+      213: -6104239940966352973
+    second: buttons BG_201
+  - first:
+      213: 1036253771642983698
+    second: buttons BG_202
+  - first:
+      213: -5212697525579142881
+    second: buttons BG_203
+  - first:
+      213: 3854791893738552730
+    second: buttons BG_204
+  - first:
+      213: 6674891089794010556
+    second: buttons BG_205
+  - first:
+      213: 5604059131740462619
+    second: buttons BG_206
+  - first:
+      213: -2692403113049906107
+    second: buttons BG_207
+  - first:
+      213: -2974162746394633692
+    second: buttons BG_208
+  - first:
+      213: -5365310982964365205
+    second: buttons BG_209
+  - first:
+      213: 1337385998156760149
+    second: buttons BG_210
+  - first:
+      213: 5891557453154313965
+    second: buttons BG_211
+  - first:
+      213: 1873310144550307623
+    second: buttons BG_212
+  - first:
+      213: -4030060390220828799
+    second: buttons BG_213
+  - first:
+      213: 3885434294096594459
+    second: buttons BG_214
+  - first:
+      213: -3436026505338805388
+    second: buttons BG_215
+  - first:
+      213: 6290777511362674515
+    second: buttons BG_216
+  - first:
+      213: 3945849250139344245
+    second: buttons BG_217
+  - first:
+      213: -3704361706230317336
+    second: buttons BG_218
+  - first:
+      213: 1326026377320836962
+    second: buttons BG_219
+  - first:
+      213: 2770797506012266599
+    second: buttons BG_220
+  - first:
+      213: 6153558504310476127
+    second: buttons BG_221
+  - first:
+      213: -6568662623360672700
+    second: buttons BG_222
+  - first:
+      213: -5737685215010591630
+    second: buttons BG_223
+  - first:
+      213: 8381057026161552870
+    second: buttons BG_224
+  - first:
+      213: 8912047723804520041
+    second: buttons BG_225
+  - first:
+      213: -474429445783828579
+    second: buttons BG_226
+  - first:
+      213: -3993090609104675252
+    second: buttons BG_227
+  - first:
+      213: 1732395442516482503
+    second: buttons BG_228
+  - first:
+      213: -3187435896961003424
+    second: buttons BG_229
+  - first:
+      213: 5578451419822068134
+    second: buttons BG_230
+  - first:
+      213: -7722025927737423635
+    second: buttons BG_231
+  - first:
+      213: -4477269319662847724
+    second: buttons BG_232
+  - first:
+      213: -8655475703341350205
+    second: buttons BG_233
+  - first:
+      213: -7828148309334644933
+    second: buttons BG_234
+  - first:
+      213: 2051379364455884884
+    second: buttons BG_235
+  - first:
+      213: 7606160338207907567
+    second: buttons BG_236
+  - first:
+      213: 5716562207207019497
+    second: buttons BG_237
+  - first:
+      213: 4855582183755334901
+    second: buttons BG_238
+  - first:
+      213: 4939257046216069823
+    second: buttons BG_239
+  - first:
+      213: -6142335265491053962
+    second: buttons BG_240
+  - first:
+      213: -712591090230452868
+    second: buttons BG_241
+  - first:
+      213: 7119108546149230251
+    second: buttons BG_242
+  - first:
+      213: -3031598800588303125
+    second: buttons BG_243
+  - first:
+      213: -3477512558645499987
+    second: buttons BG_244
+  - first:
+      213: -3106768758630845177
+    second: buttons BG_245
+  - first:
+      213: -2030088968426451687
+    second: buttons BG_246
+  - first:
+      213: -3546090584708404872
+    second: buttons BG_247
+  - first:
+      213: 4344065003649390711
+    second: buttons BG_248
+  - first:
+      213: 4751848173597564409
+    second: buttons BG_249
+  - first:
+      213: 6366623781236084103
+    second: buttons BG_250
+  - first:
+      213: 545098484250900262
+    second: buttons BG_251
+  - first:
+      213: 7412894912155009594
+    second: buttons BG_252
+  - first:
+      213: -372974275694448207
+    second: buttons BG_253
+  - first:
+      213: 8317470165112716197
+    second: buttons BG_254
+  - first:
+      213: 8875382176968893110
+    second: buttons BG_255
+  - first:
+      213: 4142735747652915359
+    second: buttons BG_256
+  - first:
+      213: 8008122435393246235
+    second: buttons BG_257
+  - first:
+      213: -179242569013111429
+    second: buttons BG_258
+  - first:
+      213: -5072893062836494520
+    second: buttons BG_259
+  - first:
+      213: 8595249281345022890
+    second: buttons BG_260
+  - first:
+      213: -8501356939511991846
+    second: buttons BG_261
+  - first:
+      213: -4256238527230215612
+    second: buttons BG_262
+  - first:
+      213: -8913285014017680897
+    second: buttons BG_263
+  - first:
+      213: 2454427053735104754
+    second: buttons BG_264
+  - first:
+      213: -5744909599016389528
+    second: buttons BG_265
+  - first:
+      213: 5239370498673250879
+    second: buttons BG_266
+  - first:
+      213: -1837175383825109874
+    second: buttons BG_267
+  - first:
+      213: -183780898587341542
+    second: buttons BG_268
+  - first:
+      213: -8065324294673177182
+    second: buttons BG_269
+  - first:
+      213: -7198069703219651862
+    second: buttons BG_270
+  - first:
+      213: 2961420171173569458
+    second: buttons BG_271
+  - first:
+      213: 7637042954558683690
+    second: buttons BG_272
+  - first:
+      213: -2790588929920361486
+    second: buttons BG_273
+  - first:
+      213: 2270242662458263865
+    second: buttons BG_274
+  - first:
+      213: -2610454416168871594
+    second: buttons BG_275
+  - first:
+      213: -3314865557552056854
+    second: buttons BG_276
+  - first:
+      213: -8655358751301627286
+    second: buttons BG_277
+  - first:
+      213: -255389341489518750
+    second: buttons BG_278
+  - first:
+      213: -3626523114267166374
+    second: buttons BG_279
+  - first:
+      213: 4158056162726154154
+    second: buttons BG_280
+  - first:
+      213: 1613009360430848962
+    second: buttons BG_281
+  - first:
+      213: -5547224338306321205
+    second: buttons BG_282
+  - first:
+      213: 5301108792245866630
+    second: buttons BG_283
+  - first:
+      213: -165611199598408206
+    second: buttons BG_284
+  - first:
+      213: 860589630122737287
+    second: buttons BG_285
+  - first:
+      213: 547216775473892934
+    second: buttons BG_286
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttons BG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3769158701f912720800000000000000
+      internalID: 2819709734797547123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b74366926120a360800000000000000
+      internalID: 7178774513342171061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb199dbf1e489600800000000000000
+      internalID: 475215658919467964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c241d9894c034e90800000000000000
+      internalID: -7042771882292985152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4fbe7f6a3623a10800000000000000
+      internalID: 1887680762596816113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0a79aa4dea4c2e0800000000000000
+      internalID: -2106366497284185899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d39db2051de2f880800000000000000
+      internalID: -8578533665691298861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96535db3d3feb5190800000000000000
+      internalID: -7972515669053459095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_8
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88154bd4b11c9a350800000000000000
+      internalID: 6028561899224060296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3137a815dab1b31b0800000000000000
+      internalID: -5675912474159058157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36684f61cf6684f60800000000000000
+      internalID: 8018772369436083811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e314085b0e4ad2f0800000000000000
+      internalID: -947358960979799064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_12
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6798f18217db34ef0800000000000000
+      internalID: -125048070934132362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e2f9496a470580800000000000000
+      internalID: -8861031925755485100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2ea9a72a70cf1b0800000000000000
+      internalID: -5621609840442154277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6659c0ee347d3be70800000000000000
+      internalID: 9129877556366710118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_16
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449dfbd7b1f6cfea0800000000000000
+      internalID: -5837668853114480316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1ac72d3a63eabc0800000000000000
+      internalID: -3770015760823574036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef98155d847576a0800000000000000
+      internalID: -6452122740771479581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_19
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bb3a1b380a12cc0800000000000000
+      internalID: -3737529728259343544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_20
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae015d0ab631b1490800000000000000
+      internalID: -7774598978744282902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_21
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca461b3c7adab530800000000000000
+      internalID: 3871647056780479172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_22
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dc89ac1c2747870800000000000000
+      internalID: 8679688558503054652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4818ed893332e9e20800000000000000
+      internalID: 3359161076579991940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_24
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1056
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3b4bfd2b7633d90800000000000000
+      internalID: -7119232567987620894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_25
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1056
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6148dd811279b140800000000000000
+      internalID: 4735941902876557675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1053
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a706cd2839e5d350800000000000000
+      internalID: 6040990902682781606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_27
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1046
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271170b54fa730400800000000000000
+      internalID: 289209990999642482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_28
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04df8a585e4c8d6d0800000000000000
+      internalID: -2965403864554472128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_29
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551fee55a79234650800000000000000
+      internalID: 6215857516105888085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251eed00db3fe6970800000000000000
+      internalID: 8750199119116427602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_31
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8612d6f84fe15ed60800000000000000
+      internalID: 7918769555528032616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_32
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1049
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692c24c449af551b0800000000000000
+      internalID: -5668349041134353770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_33
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2af07634f23ff5b0800000000000000
+      internalID: -5332487409316595157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_34
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83955b7c6d8612100800000000000000
+      internalID: 81461539952220472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_35
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdaa8c06693f8030800000000000000
+      internalID: 3499078545950027194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_36
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9aca6ecf0d8c85a0800000000000000
+      internalID: -6517679461684819301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_37
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78b378e60957a760800000000000000
+      internalID: 7469036393221830782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_38
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf712ea6b97cbd070800000000000000
+      internalID: 8132313022474622972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_39
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af489102a62285900800000000000000
+      internalID: 673325983492310266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_40
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bd230e67d455fc0800000000000000
+      internalID: -3506811561875154159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_41
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e9d50aec34c3c10800000000000000
+      internalID: 2034575686397435475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_42
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed26ed71e1aafd50800000000000000
+      internalID: 6771902979556912608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_43
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34420d8dd7549be40800000000000000
+      internalID: 5672641612460598339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_44
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39458d7382cc214a0800000000000000
+      internalID: -6624007628800895853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_45
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55592ad385fc871c0800000000000000
+      internalID: -4505623449286044331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_46
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05be99a8570b6bc0800000000000000
+      internalID: -3788926584117873396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_47
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b950f7a272fba79c0800000000000000
+      internalID: -3928617549989739109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_48
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98818b26942c69de0800000000000000
+      internalID: -1326659419769399159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_49
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a1cea58cb85f390800000000000000
+      internalID: -7785162688204891506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_50
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcf27f8c9bf848a0800000000000000
+      internalID: -6320525427174343438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_51
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1049
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8caf8527172b350800000000000000
+      internalID: 6031007586935556257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_52
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1468cabe842b730800000000000000
+      internalID: 4013350394989527550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_53
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7f7ac5bb1db3480800000000000000
+      internalID: -8918304034433533991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_54
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9dc01ef39a6f8a0800000000000000
+      internalID: -6271639339243087368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_55
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ea689cff98c9770800000000000000
+      internalID: 8618915518570999353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_56
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e81e6c375f0cf030800000000000000
+      internalID: 3529713075302045922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_57
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1049
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cb69d3a80da3e40800000000000000
+      internalID: 5637047175764950046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_58
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8555d3cd307f9d5c0800000000000000
+      internalID: -4190046382339566248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_59
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c36a78b54ccf6e10800000000000000
+      internalID: 2193196143372559303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_60
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e41f75d817cd420800000000000000
+      internalID: 2656122732121509422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_61
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6816a7e563af34d80800000000000000
+      internalID: -8267489379501842042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_62
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1046
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a16c5f86ebc1ab20800000000000000
+      internalID: 3144018205989429669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1029
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81740b8eb85cd2670800000000000000
+      internalID: 8515679675122468632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 975
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df62f3146e343fa0800000000000000
+      internalID: -5821959818730901546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_65
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1029
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9b7df35619b53b0800000000000000
+      internalID: -5522660653990954503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_66
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1022
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e100e65403e593e0800000000000000
+      internalID: -2047480847793126944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_67
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1022
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fe5b9884a79a070800000000000000
+      internalID: 8118154255278665575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d60fe70517a9b800800000000000000
+      internalID: 628717331764152019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_69
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1005
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d83e883f04b136a0800000000000000
+      internalID: -6471193212088338220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_70
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 998
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db087710a9b9b200800000000000000
+      internalID: 196392156006976467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_71
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 998
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca89513511ce00e0800000000000000
+      internalID: -2301690062773318964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cbd0b78df50a420800000000000000
+      internalID: 2639214765021183008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_73
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 981
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5a9a81909a71120800000000000000
+      internalID: 2384560384249537964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_74
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 974
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab58e5f629b9a0a80800000000000000
+      internalID: -8499810293472393798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_75
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 974
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acaff7c404aef870800000000000000
+      internalID: 8718586269078105248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 957
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259671b02fa8e8c70800000000000000
+      internalID: 8975263879568779602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_77
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 957
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6315c06422f63820800000000000000
+      internalID: 2897769648315765613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_78
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 950
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cafb4fa3beaca60800000000000000
+      internalID: 7695221551762746463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_79
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 738
+        width: 326
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab1228b3c1387340800000000000000
+      internalID: 4861690514424077227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_80
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 950
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab51fbbdc57aaaa0800000000000000
+      internalID: -6148972814739088478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da070179a2bb75be0800000000000000
+      internalID: -1488515360225202003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_82
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 933
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f34dc27e161ed9b0800000000000000
+      internalID: -5053577411832232975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_83
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 926
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4eac2fa1b240400800000000000000
+      internalID: 289403670801081523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_84
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 926
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de90c7407a13ac900800000000000000
+      internalID: 705430885041441261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc836a8e9cbd11f0800000000000000
+      internalID: -1072493747131675471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_86
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 909
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb67a41f6b944c520800000000000000
+      internalID: 2721381124919686847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_87
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 903
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3782cb5499ab87380800000000000000
+      internalID: -8973217090072991629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_88
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 903
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659590c97480cfef0800000000000000
+      internalID: -73174390291211946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeec5e0b2b7b45f70800000000000000
+      internalID: 9175160318960455406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_90
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 885
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff841ffa7547378b0800000000000000
+      internalID: -5155649228446283521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_91
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 879
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152844872e3e04770800000000000000
+      internalID: 8593118650842776145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_92
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 879
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7072b85231ec21e0800000000000000
+      internalID: -2221152909847793540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 861
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3705ac6c8f080c980800000000000000
+      internalID: -8520668689009586061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_94
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 861
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f668501ec8492ee0800000000000000
+      internalID: -1285416168762874125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_95
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 855
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d1ad51deb4e7a50800000000000000
+      internalID: 6520732792125005179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_96
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 855
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33fe5ede199538c0800000000000000
+      internalID: -4020138734499466437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 837
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b90bc8ec8919e040800000000000000
+      internalID: 4677297780992706994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_98
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 738
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78949ccb5bdc59a0800000000000000
+      internalID: -6242873796121552770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 738
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98c36bb898f313d0800000000000000
+      internalID: -3236970372286658404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_100
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 837
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af87dd93cf8948df0800000000000000
+      internalID: -178849876117980934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_101
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 831
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10df0c0f826db16d0800000000000000
+      internalID: -3018583653895570175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_102
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 831
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a6a639e82121240800000000000000
+      internalID: 4760888159651916415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c9b47b567d261f0800000000000000
+      internalID: -1053042530984420311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_104
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 813
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494030c1be00f1340800000000000000
+      internalID: 4836585534606476436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_105
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 807
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba43ab1431ea3e20800000000000000
+      internalID: 3331222488312138423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_106
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 807
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912a695a2f8e86a0800000000000000
+      internalID: -6445056604669075054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fdd0153b1234210800000000000000
+      internalID: 1315932570165043103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_108
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 789
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82698dffd36e28ba0800000000000000
+      internalID: -6088050592291711448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_109
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 783
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f689be788d332d0800000000000000
+      internalID: -3300056023647621235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_110
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 783
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c229163f3a36e3970800000000000000
+      internalID: 8736529882959417900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b65b7605b4c7b20800000000000000
+      internalID: 3133462249452432184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_112
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 765
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc38dc00393195510800000000000000
+      internalID: 1538282269818323917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_113
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 759
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db24d5928030b4660800000000000000
+      internalID: 7370988548710548157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_114
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 759
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f5f2d1267517d90800000000000000
+      internalID: -7101799058478506156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 741
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0102f2800c240a70800000000000000
+      internalID: 8792200753242571023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_116
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 741
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eef1dcb973fd08b0800000000000000
+      internalID: -5184219891849101595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_117
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 735
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5cef2d8b0c97240800000000000000
+      internalID: 4790071578731660715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_118
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 735
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed84576124871340800000000000000
+      internalID: 4834478004007898593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a32ab1643d6b620800000000000000
+      internalID: 2789649317267389025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_120
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 717
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b89c5a4178ddd20800000000000000
+      internalID: 3304946224310356808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_121
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 711
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cd35e2992bfdce0800000000000000
+      internalID: -1378186589975094261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_122
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 711
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63c8ff8d5d408ed0800000000000000
+      internalID: -2413844336027843730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d98bd6ae5b6fa70800000000000000
+      internalID: 8860469335365819713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_124
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 693
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84502decf6f684250800000000000000
+      internalID: 5929111435435181384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_125
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 687
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5473b34f7e93d0800000000000000
+      internalID: -3197978756636190180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_126
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 687
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6b78a41c7801560800000000000000
+      internalID: 7282469861706938085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14edefb29ad4366f0800000000000000
+      internalID: -692624528701989311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_128
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 669
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff39b18b97ec92850800000000000000
+      internalID: 6352835771557975039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_129
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 663
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3b19a79ca19f6c0800000000000000
+      internalID: -4109223732351749176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_130
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 663
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cdc90608b91a9c0800000000000000
+      internalID: -3917679225156608928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841fc8ad875996300800000000000000
+      internalID: 245892000963686728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_132
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 645
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58497802196fb580800000000000000
+      internalID: -8809206819940906913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_133
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 639
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4fa0335bec2b580800000000000000
+      internalID: -8812754243169880873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_134
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 639
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f78186e909ddc9f0800000000000000
+      internalID: -446462151494629390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ef416b858acfa70800000000000000
+      internalID: 8862143265723711023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_136
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 621
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d500ee8103623b680800000000000000
+      internalID: -8740600463777464227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_137
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 616
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbe028717f1ba070800000000000000
+      internalID: 8118617325472639936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_138
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 616
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f4614a4895db540800000000000000
+      internalID: 5025271185438822148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c929027b82f653020800000000000000
+      internalID: 2320883403641098908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_140
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 597
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0e61e5709465b70800000000000000
+      internalID: 8887371210654408956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_141
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 592
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d18dc2835bad4d0800000000000000
+      internalID: -3108973339870749357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_142
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 592
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae38532de677a820800000000000000
+      internalID: 2929440843500109472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a584744bedc33330800000000000000
+      internalID: 3689518930096063906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_144
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 573
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb27dc1d925edf900800000000000000
+      internalID: 719983483225469627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_145
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 568
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d36b51b73182c90800000000000000
+      internalID: -7194478985358197358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_146
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 485
+        width: 157
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae59c7d49704d05c0800000000000000
+      internalID: -4247667983805278742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_147
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 568
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43fcbef7b48ad550800000000000000
+      internalID: 6186402963934475082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984b8db6f171390c0800000000000000
+      internalID: -4570283773130132343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_149
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 549
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530c7cc7b698722d0800000000000000
+      internalID: -3303520706904997835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_150
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 544
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd69d5e507152d0e0800000000000000
+      internalID: -2246643721043077411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_151
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 544
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a4e17d6cee5d180800000000000000
+      internalID: -9091097734997456298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aea43bdbed11bb0800000000000000
+      internalID: -4966944007674729881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_153
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 525
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81d3ed2dbcb2f3f0800000000000000
+      internalID: -868424257424338547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_154
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 520
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef7d96f203b2ae90800000000000000
+      internalID: -7015848444180987934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_155
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 520
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d179736e39438400800000000000000
+      internalID: 325184130406511057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f644b2428fa7d6770800000000000000
+      internalID: 8605669669152179311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_157
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 501
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69374ace8f7706260800000000000000
+      internalID: 7088797724486955926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_158
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 496
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d86e5c45d4461300800000000000000
+      internalID: 222440914501396696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_159
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 496
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0846223c6f8784c80800000000000000
+      internalID: -8338281708845374336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ca502365c29520800000000000000
+      internalID: 2707443355538343565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_161
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 477
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2fad341df670b10800000000000000
+      internalID: 1947648308438299330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_162
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 472
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f37e81847f90c8e0800000000000000
+      internalID: -1675163738643205133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_163
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 472
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a23d3890f94447c0800000000000000
+      internalID: -4088061264050441561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f8e50ab15fb1f30800000000000000
+      internalID: 4547497747764121468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_165
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 453
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7822793b660530be0800000000000000
+      internalID: -1512276647836441977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_166
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 448
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423ec11eca4e76a60800000000000000
+      internalID: 7667348321783833380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_167
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 253
+        width: 312
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c09fc6cfdc64e70800000000000000
+      internalID: 9099186581192379543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_168
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 252
+        width: 211
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca822a81585334d0800000000000000
+      internalID: -3156081806623470900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_169
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 448
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed22db089b04eb530800000000000000
+      internalID: 3872603895058211550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7931453a132c002c0800000000000000
+      internalID: -4467357311902149737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_171
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 429
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a275fbe5c6cd2c330800000000000000
+      internalID: 3729785799420368682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_172
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 424
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957b6e87a5af9bf50800000000000000
+      internalID: 6897819570777012057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_173
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 424
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371f55c41350cf300800000000000000
+      internalID: 287110185537106291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1d994604a47000800000000000000
+      internalID: 32831444210229136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_175
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 405
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f393d21f790a77170800000000000000
+      internalID: 8176180222961203519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_176
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 400
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73842efb4e9c6a710800000000000000
+      internalID: 1704271493315315767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_177
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 400
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17170339c1702ec10800000000000000
+      internalID: 2081233797108494705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586d1d30f7a02f460800000000000000
+      internalID: 7273887888797980293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_179
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 381
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff61b16e42430f80800000000000000
+      internalID: -8141590796941824002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_180
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 376
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b92359acb915d7f0800000000000000
+      internalID: -588535878216635978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_181
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 376
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b816988823e45d0800000000000000
+      internalID: -3076465933445657828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcec596a8c8ed2c10800000000000000
+      internalID: 2030534955499900623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_183
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 357
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4661291bd151930f0800000000000000
+      internalID: -1136854213656963484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_184
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 352
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc03c5b4f5793750800000000000000
+      internalID: 6285184448854166739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_185
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 352
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c74dd489c3a52be0800000000000000
+      internalID: -1502614814745344062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50125ff7548aca290800000000000000
+      internalID: -7877736631724859131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_187
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 333
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07c5548be0ec1240800000000000000
+      internalID: 4763929807993292555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_188
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 329
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78424bc4f1d930da0800000000000000
+      internalID: -5979763122461465465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_189
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 329
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb11bf321ae4e93b0800000000000000
+      internalID: -5503875240599809602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c8ae48515291860800000000000000
+      internalID: 7501067428716776498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_191
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 309
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9700648d3c7c5cb10800000000000000
+      internalID: 2001225253397069945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_192
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 305
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8e3c9965aadb920800000000000000
+      internalID: 3007747415077021907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_193
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 305
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08f2bdb868bd53f0800000000000000
+      internalID: -910368789660239859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035aaf2a6f4856a50800000000000000
+      internalID: 6513758630892447024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_195
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 285
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad424ca30ba934730800000000000000
+      internalID: 3982196577216505050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_196
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 281
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86710070b59f76a70800000000000000
+      internalID: 8820292564583192424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_197
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 281
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44c5a03aaf68fb90800000000000000
+      internalID: -7207888426855185333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577933ff363a79c90800000000000000
+      internalID: -7163077032430823563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_199
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 261
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9290ec0893a638c0800000000000000
+      internalID: -4019845743935188326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_200
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 257
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93122f695b004760800000000000000
+      internalID: 7439959063160558495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_201
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 257
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f2f68d12694ba0800000000000000
+      internalID: -6104239940966352973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21550f3a053816e00800000000000000
+      internalID: 1036253771642983698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_203
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 237
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f192c42f737c8a7b0800000000000000
+      internalID: -5212697525579142881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_204
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 233
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d7755cdc8fe7530800000000000000
+      internalID: 3854791893738552730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_205
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 233
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd8791c41af1ac50800000000000000
+      internalID: 6674891089794010556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_206
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e9ca7b61e95cd40800000000000000
+      internalID: 5604059131740462619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_207
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 213
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544218632a9a2aad0800000000000000
+      internalID: -2692403113049906107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_208
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 211
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a92fc6db6a9b6d0800000000000000
+      internalID: -2974162746394633692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_209
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6838ee66169a85b0800000000000000
+      internalID: -5365310982964365205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_210
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55407b3ca795f8210800000000000000
+      internalID: 1337385998156760149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_211
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de66111f94403c150800000000000000
+      internalID: 5891557453154313965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_212
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7278e08b6a55ff910800000000000000
+      internalID: 1873310144550307623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_213
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 212
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fe3816d695218c0800000000000000
+      internalID: -4030060390220828799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_214
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168fb197e5dbe530800000000000000
+      internalID: 3885434294096594459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_215
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47324762918c050d0800000000000000
+      internalID: -3436026505338805388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_216
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fb9cd01d45d4750800000000000000
+      internalID: 6290777511362674515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_217
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d0ccbacf872c630800000000000000
+      internalID: 3945849250139344245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_218
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eef49c97a6779cc0800000000000000
+      internalID: -3704361706230317336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_219
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fa10fe6fdf66210800000000000000
+      internalID: 1326026377320836962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_220
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7604662c6a9d37620800000000000000
+      internalID: 2770797506012266599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_221
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d82025bd4d56550800000000000000
+      internalID: 6153558504310476127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_222
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c9335752c67d4a0800000000000000
+      internalID: -6568662623360672700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_223
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c684e42b5af50b0800000000000000
+      internalID: -5737685215010591630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_224
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eda6a6e5fe7f4470800000000000000
+      internalID: 8381057026161552870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_225
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e62becf24fdab70800000000000000
+      internalID: 8912047723804520041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_226
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c115ceec7a69f0800000000000000
+      internalID: -474429445783828579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_227
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e1e505f31b598c0800000000000000
+      internalID: -3993090609104675252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_228
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c953b1f974ba0810800000000000000
+      internalID: 1732395442516482503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_229
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609f4180f3f3c3d0800000000000000
+      internalID: -3187435896961003424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_230
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1944ba204aa6d40800000000000000
+      internalID: 5578451419822068134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_231
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8cadee45ad5d490800000000000000
+      internalID: -7722025927737423635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_232
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 212
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419bdbd764b8dd1c0800000000000000
+      internalID: -4477269319662847724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_233
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2805cd4b291e780800000000000000
+      internalID: -8655475703341350205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_234
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37a8058694dc5390800000000000000
+      internalID: -7828148309334644933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_235
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458a5fdc9a6f77c10800000000000000
+      internalID: 2051379364455884884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_236
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee1c8747828e8960800000000000000
+      internalID: 7606160338207907567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_237
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e35ff03a0f455f40800000000000000
+      internalID: 5716562207207019497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_238
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 212
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4c378254e726340800000000000000
+      internalID: 4855582183755334901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_239
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2dd0e3d14cb8440800000000000000
+      internalID: 4939257046216069823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_240
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6721d099e9a02caa0800000000000000
+      internalID: -6142335265491053962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_241
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d94bccd2e5c16f0800000000000000
+      internalID: -712591090230452868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_242
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 212
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba62caa01872cc260800000000000000
+      internalID: 7119108546149230251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_243
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 211
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be41f65f3f89de5d0800000000000000
+      internalID: -3031598800588303125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_244
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7a9f7a0c46dbfc0800000000000000
+      internalID: -3477512558645499987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_245
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 189
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705f68e364a82e4d0800000000000000
+      internalID: -3106768758630845177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_246
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d808ec6dca3d3e0800000000000000
+      internalID: -2030088968426451687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_247
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 165
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8792915b661c9cec0800000000000000
+      internalID: -3546090584708404872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_248
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7785abfda18394c30800000000000000
+      internalID: 4344065003649390711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_249
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 141
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd1fddccb4f1f140800000000000000
+      internalID: 4751848173597564409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d8123e89aca5850800000000000000
+      internalID: 6366623781236084103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_251
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 117
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627f061fe24909700800000000000000
+      internalID: 545098484250900262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32cc4cb5a4efd660800000000000000
+      internalID: 7412894912155009594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_253
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 93
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1bfd25fdde2daf0800000000000000
+      internalID: -372974275694448207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_254
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abf37d1c079d6370800000000000000
+      internalID: 8317470165112716197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_255
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 69
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b26010f011bb2b70800000000000000
+      internalID: 8875382176968893110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f901a2d9634fd7930800000000000000
+      internalID: 4142735747652915359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_257
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 45
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1453771de0922f60800000000000000
+      internalID: 8008122435393246235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_258
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75585945d3338df0800000000000000
+      internalID: -179242569013111429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_259
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 21
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f561ef2a67999b0800000000000000
+      internalID: -5072893062836494520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab608a8ea5784770800000000000000
+      internalID: 8595249281345022890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_261
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f597d7ec150a80800000000000000
+      internalID: -8501356939511991846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_262
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a7c192c9dcee4c0800000000000000
+      internalID: -4256238527230215612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_263
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9d9ad1186ad4480800000000000000
+      internalID: -8913285014017680897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_264
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f05df8b660ef0220800000000000000
+      internalID: 2454427053735104754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_265
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86475e3582bf540b0800000000000000
+      internalID: -5744909599016389528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_266
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32941c85bbf5b840800000000000000
+      internalID: 5239370498673250879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_267
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c2301e8ba0186e0800000000000000
+      internalID: -1837175383825109874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_268
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d03371f34137df0800000000000000
+      internalID: -183780898587341542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_269
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56da13946321090800000000000000
+      internalID: -8065324294673177182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_270
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea571fedb15b1c90800000000000000
+      internalID: -7198069703219651862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_271
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b32a7594f3191920800000000000000
+      internalID: 2961420171173569458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_272
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2abed8ba1a3cf960800000000000000
+      internalID: 7637042954558683690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_273
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb95f54726d549d0800000000000000
+      internalID: -2790588929920361486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_274
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93903c95ca5818f10800000000000000
+      internalID: 2270242662458263865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_275
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65997ed0a8dc5cbd0800000000000000
+      internalID: -2610454416168871594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_276
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5beeb965b3ff1d0800000000000000
+      internalID: -3314865557552056854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_277
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621911e21df1e780800000000000000
+      internalID: -8655358751301627286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_278
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267a81d3fbca47cf0800000000000000
+      internalID: -255389341489518750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_279
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59bc5411700cadc0800000000000000
+      internalID: -3626523114267166374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_280
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf8a67bc0264b930800000000000000
+      internalID: 4158056162726154154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_281
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb5cdb977f826610800000000000000
+      internalID: 1613009360430848962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_282
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4b9d1dadc4403b0800000000000000
+      internalID: -5547224338306321205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_283
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680d38d2c52519940800000000000000
+      internalID: 5301108792245866630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_284
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd4c1dcd71a3bdf0800000000000000
+      internalID: -165611199598408206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_285
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eb9d085bd61fb00800000000000000
+      internalID: 860589630122737287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons BG_286
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e814d02ca189700800000000000000
+      internalID: 547216775473892934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buttons BG_0: 2819709734797547123
+      buttons BG_1: 7178774513342171061
+      buttons BG_10: 8018772369436083811
+      buttons BG_100: -178849876117980934
+      buttons BG_101: -3018583653895570175
+      buttons BG_102: 4760888159651916415
+      buttons BG_103: -1053042530984420311
+      buttons BG_104: 4836585534606476436
+      buttons BG_105: 3331222488312138423
+      buttons BG_106: -6445056604669075054
+      buttons BG_107: 1315932570165043103
+      buttons BG_108: -6088050592291711448
+      buttons BG_109: -3300056023647621235
+      buttons BG_11: -947358960979799064
+      buttons BG_110: 8736529882959417900
+      buttons BG_111: 3133462249452432184
+      buttons BG_112: 1538282269818323917
+      buttons BG_113: 7370988548710548157
+      buttons BG_114: -7101799058478506156
+      buttons BG_115: 8792200753242571023
+      buttons BG_116: -5184219891849101595
+      buttons BG_117: 4790071578731660715
+      buttons BG_118: 4834478004007898593
+      buttons BG_119: 2789649317267389025
+      buttons BG_12: -125048070934132362
+      buttons BG_120: 3304946224310356808
+      buttons BG_121: -1378186589975094261
+      buttons BG_122: -2413844336027843730
+      buttons BG_123: 8860469335365819713
+      buttons BG_124: 5929111435435181384
+      buttons BG_125: -3197978756636190180
+      buttons BG_126: 7282469861706938085
+      buttons BG_127: -692624528701989311
+      buttons BG_128: 6352835771557975039
+      buttons BG_129: -4109223732351749176
+      buttons BG_13: -8861031925755485100
+      buttons BG_130: -3917679225156608928
+      buttons BG_131: 245892000963686728
+      buttons BG_132: -8809206819940906913
+      buttons BG_133: -8812754243169880873
+      buttons BG_134: -446462151494629390
+      buttons BG_135: 8862143265723711023
+      buttons BG_136: -8740600463777464227
+      buttons BG_137: 8118617325472639936
+      buttons BG_138: 5025271185438822148
+      buttons BG_139: 2320883403641098908
+      buttons BG_14: -5621609840442154277
+      buttons BG_140: 8887371210654408956
+      buttons BG_141: -3108973339870749357
+      buttons BG_142: 2929440843500109472
+      buttons BG_143: 3689518930096063906
+      buttons BG_144: 719983483225469627
+      buttons BG_145: -7194478985358197358
+      buttons BG_146: -4247667983805278742
+      buttons BG_147: 6186402963934475082
+      buttons BG_148: -4570283773130132343
+      buttons BG_149: -3303520706904997835
+      buttons BG_15: 9129877556366710118
+      buttons BG_150: -2246643721043077411
+      buttons BG_151: -9091097734997456298
+      buttons BG_152: -4966944007674729881
+      buttons BG_153: -868424257424338547
+      buttons BG_154: -7015848444180987934
+      buttons BG_155: 325184130406511057
+      buttons BG_156: 8605669669152179311
+      buttons BG_157: 7088797724486955926
+      buttons BG_158: 222440914501396696
+      buttons BG_159: -8338281708845374336
+      buttons BG_16: -5837668853114480316
+      buttons BG_160: 2707443355538343565
+      buttons BG_161: 1947648308438299330
+      buttons BG_162: -1675163738643205133
+      buttons BG_163: -4088061264050441561
+      buttons BG_164: 4547497747764121468
+      buttons BG_165: -1512276647836441977
+      buttons BG_166: 7667348321783833380
+      buttons BG_167: 9099186581192379543
+      buttons BG_168: -3156081806623470900
+      buttons BG_169: 3872603895058211550
+      buttons BG_17: -3770015760823574036
+      buttons BG_170: -4467357311902149737
+      buttons BG_171: 3729785799420368682
+      buttons BG_172: 6897819570777012057
+      buttons BG_173: 287110185537106291
+      buttons BG_174: 32831444210229136
+      buttons BG_175: 8176180222961203519
+      buttons BG_176: 1704271493315315767
+      buttons BG_177: 2081233797108494705
+      buttons BG_178: 7273887888797980293
+      buttons BG_179: -8141590796941824002
+      buttons BG_18: -6452122740771479581
+      buttons BG_180: -588535878216635978
+      buttons BG_181: -3076465933445657828
+      buttons BG_182: 2030534955499900623
+      buttons BG_183: -1136854213656963484
+      buttons BG_184: 6285184448854166739
+      buttons BG_185: -1502614814745344062
+      buttons BG_186: -7877736631724859131
+      buttons BG_187: 4763929807993292555
+      buttons BG_188: -5979763122461465465
+      buttons BG_189: -5503875240599809602
+      buttons BG_19: -3737529728259343544
+      buttons BG_190: 7501067428716776498
+      buttons BG_191: 2001225253397069945
+      buttons BG_192: 3007747415077021907
+      buttons BG_193: -910368789660239859
+      buttons BG_194: 6513758630892447024
+      buttons BG_195: 3982196577216505050
+      buttons BG_196: 8820292564583192424
+      buttons BG_197: -7207888426855185333
+      buttons BG_198: -7163077032430823563
+      buttons BG_199: -4019845743935188326
+      buttons BG_2: 475215658919467964
+      buttons BG_20: -7774598978744282902
+      buttons BG_200: 7439959063160558495
+      buttons BG_201: -6104239940966352973
+      buttons BG_202: 1036253771642983698
+      buttons BG_203: -5212697525579142881
+      buttons BG_204: 3854791893738552730
+      buttons BG_205: 6674891089794010556
+      buttons BG_206: 5604059131740462619
+      buttons BG_207: -2692403113049906107
+      buttons BG_208: -2974162746394633692
+      buttons BG_209: -5365310982964365205
+      buttons BG_21: 3871647056780479172
+      buttons BG_210: 1337385998156760149
+      buttons BG_211: 5891557453154313965
+      buttons BG_212: 1873310144550307623
+      buttons BG_213: -4030060390220828799
+      buttons BG_214: 3885434294096594459
+      buttons BG_215: -3436026505338805388
+      buttons BG_216: 6290777511362674515
+      buttons BG_217: 3945849250139344245
+      buttons BG_218: -3704361706230317336
+      buttons BG_219: 1326026377320836962
+      buttons BG_22: 8679688558503054652
+      buttons BG_220: 2770797506012266599
+      buttons BG_221: 6153558504310476127
+      buttons BG_222: -6568662623360672700
+      buttons BG_223: -5737685215010591630
+      buttons BG_224: 8381057026161552870
+      buttons BG_225: 8912047723804520041
+      buttons BG_226: -474429445783828579
+      buttons BG_227: -3993090609104675252
+      buttons BG_228: 1732395442516482503
+      buttons BG_229: -3187435896961003424
+      buttons BG_23: 3359161076579991940
+      buttons BG_230: 5578451419822068134
+      buttons BG_231: -7722025927737423635
+      buttons BG_232: -4477269319662847724
+      buttons BG_233: -8655475703341350205
+      buttons BG_234: -7828148309334644933
+      buttons BG_235: 2051379364455884884
+      buttons BG_236: 7606160338207907567
+      buttons BG_237: 5716562207207019497
+      buttons BG_238: 4855582183755334901
+      buttons BG_239: 4939257046216069823
+      buttons BG_24: -7119232567987620894
+      buttons BG_240: -6142335265491053962
+      buttons BG_241: -712591090230452868
+      buttons BG_242: 7119108546149230251
+      buttons BG_243: -3031598800588303125
+      buttons BG_244: -3477512558645499987
+      buttons BG_245: -3106768758630845177
+      buttons BG_246: -2030088968426451687
+      buttons BG_247: -3546090584708404872
+      buttons BG_248: 4344065003649390711
+      buttons BG_249: 4751848173597564409
+      buttons BG_25: 4735941902876557675
+      buttons BG_250: 6366623781236084103
+      buttons BG_251: 545098484250900262
+      buttons BG_252: 7412894912155009594
+      buttons BG_253: -372974275694448207
+      buttons BG_254: 8317470165112716197
+      buttons BG_255: 8875382176968893110
+      buttons BG_256: 4142735747652915359
+      buttons BG_257: 8008122435393246235
+      buttons BG_258: -179242569013111429
+      buttons BG_259: -5072893062836494520
+      buttons BG_26: 6040990902682781606
+      buttons BG_260: 8595249281345022890
+      buttons BG_261: -8501356939511991846
+      buttons BG_262: -4256238527230215612
+      buttons BG_263: -8913285014017680897
+      buttons BG_264: 2454427053735104754
+      buttons BG_265: -5744909599016389528
+      buttons BG_266: 5239370498673250879
+      buttons BG_267: -1837175383825109874
+      buttons BG_268: -183780898587341542
+      buttons BG_269: -8065324294673177182
+      buttons BG_27: 289209990999642482
+      buttons BG_270: -7198069703219651862
+      buttons BG_271: 2961420171173569458
+      buttons BG_272: 7637042954558683690
+      buttons BG_273: -2790588929920361486
+      buttons BG_274: 2270242662458263865
+      buttons BG_275: -2610454416168871594
+      buttons BG_276: -3314865557552056854
+      buttons BG_277: -8655358751301627286
+      buttons BG_278: -255389341489518750
+      buttons BG_279: -3626523114267166374
+      buttons BG_28: -2965403864554472128
+      buttons BG_280: 4158056162726154154
+      buttons BG_281: 1613009360430848962
+      buttons BG_282: -5547224338306321205
+      buttons BG_283: 5301108792245866630
+      buttons BG_284: -165611199598408206
+      buttons BG_285: 860589630122737287
+      buttons BG_286: 547216775473892934
+      buttons BG_29: 6215857516105888085
+      buttons BG_3: -7042771882292985152
+      buttons BG_30: 8750199119116427602
+      buttons BG_31: 7918769555528032616
+      buttons BG_32: -5668349041134353770
+      buttons BG_33: -5332487409316595157
+      buttons BG_34: 81461539952220472
+      buttons BG_35: 3499078545950027194
+      buttons BG_36: -6517679461684819301
+      buttons BG_37: 7469036393221830782
+      buttons BG_38: 8132313022474622972
+      buttons BG_39: 673325983492310266
+      buttons BG_4: 1887680762596816113
+      buttons BG_40: -3506811561875154159
+      buttons BG_41: 2034575686397435475
+      buttons BG_42: 6771902979556912608
+      buttons BG_43: 5672641612460598339
+      buttons BG_44: -6624007628800895853
+      buttons BG_45: -4505623449286044331
+      buttons BG_46: -3788926584117873396
+      buttons BG_47: -3928617549989739109
+      buttons BG_48: -1326659419769399159
+      buttons BG_49: -7785162688204891506
+      buttons BG_5: -2106366497284185899
+      buttons BG_50: -6320525427174343438
+      buttons BG_51: 6031007586935556257
+      buttons BG_52: 4013350394989527550
+      buttons BG_53: -8918304034433533991
+      buttons BG_54: -6271639339243087368
+      buttons BG_55: 8618915518570999353
+      buttons BG_56: 3529713075302045922
+      buttons BG_57: 5637047175764950046
+      buttons BG_58: -4190046382339566248
+      buttons BG_59: 2193196143372559303
+      buttons BG_6: -8578533665691298861
+      buttons BG_60: 2656122732121509422
+      buttons BG_61: -8267489379501842042
+      buttons BG_62: 3144018205989429669
+      buttons BG_63: 8515679675122468632
+      buttons BG_64: -5821959818730901546
+      buttons BG_65: -5522660653990954503
+      buttons BG_66: -2047480847793126944
+      buttons BG_67: 8118154255278665575
+      buttons BG_68: 628717331764152019
+      buttons BG_69: -6471193212088338220
+      buttons BG_7: -7972515669053459095
+      buttons BG_70: 196392156006976467
+      buttons BG_71: -2301690062773318964
+      buttons BG_72: 2639214765021183008
+      buttons BG_73: 2384560384249537964
+      buttons BG_74: -8499810293472393798
+      buttons BG_75: 8718586269078105248
+      buttons BG_76: 8975263879568779602
+      buttons BG_77: 2897769648315765613
+      buttons BG_78: 7695221551762746463
+      buttons BG_79: 4861690514424077227
+      buttons BG_8: 6028561899224060296
+      buttons BG_80: -6148972814739088478
+      buttons BG_81: -1488515360225202003
+      buttons BG_82: -5053577411832232975
+      buttons BG_83: 289403670801081523
+      buttons BG_84: 705430885041441261
+      buttons BG_85: -1072493747131675471
+      buttons BG_86: 2721381124919686847
+      buttons BG_87: -8973217090072991629
+      buttons BG_88: -73174390291211946
+      buttons BG_89: 9175160318960455406
+      buttons BG_9: -5675912474159058157
+      buttons BG_90: -5155649228446283521
+      buttons BG_91: 8593118650842776145
+      buttons BG_92: -2221152909847793540
+      buttons BG_93: -8520668689009586061
+      buttons BG_94: -1285416168762874125
+      buttons BG_95: 6520732792125005179
+      buttons BG_96: -4020138734499466437
+      buttons BG_97: 4677297780992706994
+      buttons BG_98: -6242873796121552770
+      buttons BG_99: -3236970372286658404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

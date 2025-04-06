@@ -5,6 +5,7 @@ public class PoolableItem : MonoBehaviour, IPoolable
 {
     public float speed = 5f;
     private bool _shouldMove = false;
+    public static event Action ItemScanned;
     public void Reset()
     {
         transform.position = Vector3.zero;
@@ -28,6 +29,7 @@ public class PoolableItem : MonoBehaviour, IPoolable
         
         else if (other.CompareTag($"Destroyer"))
         {
+            ItemScanned?.Invoke();
             _shouldMove = false;
             ItemPool.Instance.Return(this);
         }
