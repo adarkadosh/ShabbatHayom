@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class SpawnManager : MonoSingleton<SpawnManager>
 {
@@ -20,14 +19,14 @@ public class SpawnManager : MonoSingleton<SpawnManager>
 
     private readonly bool[] _laneOccupied = new bool[3];
     private readonly Vector3[] _productStartPositions = {
-        new(-17.2f, 10, 0),
-        new(-13.5f, 10, 0),
-        new(-9.8f, 10, 0)
-    };
-    private readonly Vector3[] _obstacleStartPositions = {
         new(-17.2f, 15, 0),
         new(-13.5f, 15, 0),
         new(-9.8f, 15, 0)
+    };
+    private readonly Vector3[] _obstacleStartPositions = {
+        new(-17.2f, 20, 0),
+        new(-13.5f, 20, 0),
+        new(-9.8f, 20, 0)
     };
     
     private void Start()
@@ -70,7 +69,7 @@ public class SpawnManager : MonoSingleton<SpawnManager>
         while (true)
         {
             yield return new WaitForSeconds(speedIncreaseInterval);
-            // GameEvents.OnSpeedUp.Invoke();
+            GameEvents.OnSpeedUp?.Invoke();
             speed += speedUpAmount;
             obstacleSpawnInterval *= obstacleSpawnFactor; // Decrease spawn interval by 10%
             productSpawnInterval *= productSpawnFactor; // Decrease spawn interval by 10%

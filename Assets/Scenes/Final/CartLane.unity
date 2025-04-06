@@ -1314,8 +1314,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacleSpawnInterval: 4
   productSpawnInterval: 2
-  speedIncreaseInterval: 10
-  speedUpAmount: 0.5
+  speedIncreaseInterval: 24
+  speedUpAmount: 1
   obstacleSpawnFactor: 0.96
   productSpawnFactor: 0.96
   speed: 5

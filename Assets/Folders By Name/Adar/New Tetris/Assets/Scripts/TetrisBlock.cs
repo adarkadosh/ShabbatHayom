@@ -7,10 +7,26 @@ public class TetrisBlock : MonoBehaviour
 {
     public Vector3 rotationPoint;
     private float _previousTime;
-    public float fallTime = 0.8f;
+    private float _fallTime = 0.7f;
     private const int Height = 12;
     private const int Width = 12;
     private static readonly Transform[,] Grid = new Transform[Width, Height];
+
+    private void OnEnable()
+    {
+        GameEvents.OnSpeedUp += OnSpeedUp;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnSpeedUp -= OnSpeedUp;
+    }
+
+    private void OnSpeedUp()
+    {
+        if (_fallTime > 0.2f)
+            _fallTime -= 0.1f;
+    }
 
     private void Update()
     {
@@ -35,7 +51,7 @@ public class TetrisBlock : MonoBehaviour
         }
 
 
-        if (Time.time - _previousTime > (Input.GetKey(KeyCode.DownArrow) ? fallTime / 10 : fallTime))
+        if (Time.time - _previousTime > (Input.GetKey(KeyCode.DownArrow) ? _fallTime / 10 : _fallTime))
         {
             transform.position += new Vector3(0, -1, 0);
             if (!ValidMove())
