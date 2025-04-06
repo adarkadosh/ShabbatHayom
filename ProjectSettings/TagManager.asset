@@ -8,6 +8,7 @@ TagManager:
   - Product
   - Obstacle
   - Destroyer
+  - Square
   layers:
   - Default
   - TransparentFX

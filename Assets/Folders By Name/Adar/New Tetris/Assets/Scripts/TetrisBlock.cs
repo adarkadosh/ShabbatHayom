@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class TetrisBlock : MonoBehaviour
 {
@@ -8,15 +10,13 @@ public class TetrisBlock : MonoBehaviour
     private const int Height = 12;
     private const int Width = 12;
     private static readonly Transform[,] Grid = new Transform[Width, Height];
-   
 
-    // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-1, 0, 0);
-            if (!ValidMove())
+            if(!ValidMove())
                 transform.position -= new Vector3(-1, 0, 0);
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -28,7 +28,7 @@ public class TetrisBlock : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             //rotate !
-            transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), 90);
+            transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0,0,1), 90);
             if (!ValidMove())
                 transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), -90);
         }
@@ -43,19 +43,20 @@ public class TetrisBlock : MonoBehaviour
                 AddToGrid();
                 CheckForLines();
 
-                enabled = false;
-                FindObjectOfType<SpawnTetromino>().NewTetromino();
-            }
+                this.enabled = false;
+                // FindObjectOfType<SpawnTetromino>().NewTetromino();
+                // MyEvents.GameOver();
 
+            }
             _previousTime = Time.time;
         }
     }
 
-    private static void CheckForLines()
+    private void CheckForLines()
     {
-        for (int i = Height - 1; i >= 0; i--)
+        for (int i = Height-1; i >= 0; i--)
         {
-            if (HasLine(i))
+            if(HasLine(i))
             {
                 DeleteLine(i);
                 RowDown(i);
@@ -65,9 +66,9 @@ public class TetrisBlock : MonoBehaviour
 
     private static bool HasLine(int i)
     {
-        for (int j = 0; j < Width; j++)
+        for(int j = 0; j< Width; j++)
         {
-            if (!Grid[j, i])
+            if (Grid != null && Grid[j, i] == null)
                 return false;
         }
 
@@ -76,13 +77,10 @@ public class TetrisBlock : MonoBehaviour
 
     private static void DeleteLine(int i)
     {
-        for (var j = 0; j < Width; j++)
+        for (int j = 0; j < Width; j++)
         {
-            if (Grid != null)
-            {
-                Destroy(Grid[j, i].gameObject);
-                Grid[j, i] = null;
-            }
+            Destroy(Grid[j, i].gameObject);
+            Grid[j, i] = null;
         }
     }
 
@@ -92,7 +90,7 @@ public class TetrisBlock : MonoBehaviour
         {
             for (var j = 0; j < Width; j++)
             {
-                if (Grid[j, y])
+                if(Grid[j,y])
                 {
                     Grid[j, y - 1] = Grid[j, y];
                     Grid[j, y] = null;
@@ -121,7 +119,7 @@ public class TetrisBlock : MonoBehaviour
             var roundedX = Mathf.RoundToInt(children.transform.position.x);
             var roundedY = Mathf.RoundToInt(children.transform.position.y);
 
-            if (roundedX < 0 || roundedX >= Width || roundedY < 0 || roundedY >= Height)
+            if(roundedX < 0 || roundedX >= Width || roundedY < 0 ||roundedY >= Height)
             {
                 return false;
             }

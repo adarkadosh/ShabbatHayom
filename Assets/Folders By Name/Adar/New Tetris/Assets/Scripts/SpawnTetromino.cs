@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpawnTetromino : MonoBehaviour
 {
+    // private 
+    // [SerializeField] private GameObject ComponentFather;
     public GameObject[] Tetrominoes;
 
     // Start is called before the first frame update
@@ -14,6 +16,7 @@ public class SpawnTetromino : MonoBehaviour
 
     public void NewTetromino()
     {
+        // instantiate a new tetromino at the 
         Instantiate(Tetrominoes[Random.Range(0, Tetrominoes.Length)], transform.position, Quaternion.identity);
     }
 }
