@@ -28,10 +28,8 @@ public class SoundManager : MonoSingleton<SoundManager>
         // GameManager.Instance.GameStart += OnGameStart;
         // GameManager.Instance.GamePause += OnGamePause;
         // GameManager.Instance.GameResume += OnGamePause;
-        OnGameStart(); //Move to the game manager
         GameEvents.OnProductCollected += OnItemSpawned;
-        
-        
+        OnGameStart();
     }
     
     private void OnDifficultyChanged()
@@ -56,7 +54,7 @@ public class SoundManager : MonoSingleton<SoundManager>
         PlaySoundEffect(togglePauseSound);
     }
     
-    private void OnItemSpawned()
+    private void OnItemSpawned(Products product)
     {
         PlaySoundEffect(itemSpawnSound);
     }
