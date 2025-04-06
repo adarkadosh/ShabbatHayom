@@ -101,6 +101,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab67b9f90c1e0dd49b6885205e762633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grocerySprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!61 &4036711411029284880
 BoxCollider2D:
   m_ObjectHideFlags: 0

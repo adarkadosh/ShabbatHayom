@@ -6,7 +6,6 @@ using Random = UnityEngine.Random;
 public class Product : MonoBehaviour, IPoolable
     { 
         private float _speed = 5f;
-        private float _timeToSpeedUp = 5f;
         private SpriteRenderer _spriteRenderer;
         private Products _productType;
         
@@ -17,15 +16,25 @@ public class Product : MonoBehaviour, IPoolable
             _spriteRenderer = GetComponent<SpriteRenderer>();
             Reset();
         }
+        
+        private void OnEnable()
+        {
+            GameEvents.OnSpeedUp += SpeedItUp;
+        }
+    
+        private void OnDisable()
+        {
+            GameEvents.OnSpeedUp -= SpeedItUp;
+        }
+
+        private void SpeedItUp()
+        {
+            _speed += 0.5f;
+        }
 
         private void FixedUpdate()
         {
             transform.position += Vector3.down * (Time.fixedDeltaTime * _speed);
-            if (Time.time >= _timeToSpeedUp)
-            {
-                _speed += 0.5f;
-                _timeToSpeedUp += 5f;
-            }
             if (transform.position.y < -8)
             {
                 GroceriesPool.Instance.Return(this);
