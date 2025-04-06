@@ -75,6 +75,7 @@ public class SpawnManager : MonoSingleton<SpawnManager>
     {
         // Shuffle lanes randomly
         int[] lanes = { 0, 1, 2 };
+        Utils.ShuffleArray(lanes); // A small utility to randomize array order
         foreach (var lane in lanes)
         {
             if (!_laneOccupied[lane])
@@ -85,7 +86,7 @@ public class SpawnManager : MonoSingleton<SpawnManager>
 
     private void SpawnObstacle(int lane)
     {
-        var spawnPos = _obstacleStartPositions[Random.Range(0, _obstacleStartPositions.Length)];
+        var spawnPos = _obstacleStartPositions[lane];
         var obstacle = ObstaclePool.Instance.Get();
         obstacle.transform.position = spawnPos;
         _laneOccupied[lane] = true;
@@ -94,16 +95,27 @@ public class SpawnManager : MonoSingleton<SpawnManager>
 
     private void SpawnProduct(int lane)
     {
-        
-        var spawnPos = _productStartPositions[Random.Range(0, _productStartPositions.Length)];
+        var spawnPos = _productStartPositions[lane];
         var product = GroceriesPool.Instance.Get();
         product.transform.position = spawnPos;
         product.gameObject.SetActive(true);
     }
 
-    IEnumerator FreeLaneAfterDelay(int lane, float delay)
+    private IEnumerator FreeLaneAfterDelay(int lane, float delay)
     {
         yield return new WaitForSeconds(delay);
         _laneOccupied[lane] = false;
+    }
+}
+
+public static class Utils
+{
+    public static void ShuffleArray<T>(T[] array)
+    {
+        for (var i = array.Length - 1; i > 0; i--)
+        {
+            var rnd = Random.Range(0, i + 1);
+            (array[i], array[rnd]) = (array[rnd], array[i]);
+        }
     }
 }

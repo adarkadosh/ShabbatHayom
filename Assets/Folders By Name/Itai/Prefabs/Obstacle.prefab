@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1200074526992863358}
   - component: {fileID: 7826025085081178647}
   - component: {fileID: 7146968995180755476}
-  - component: {fileID: 7156854682826615037}
+  - component: {fileID: 8170744915117295580}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 10, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,13 +78,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9547169, g: 0.084663525, b: 0.084663525, a: 1}
+  m_Sprite: {fileID: -5945266674725043111, guid: b4e8f1f253c1c9c4b849f4a3ada8c3fc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
+  m_DrawMode: 2
+  m_Size: {x: 3, y: 11.74}
+  m_AdaptiveModeThreshold: 1
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
@@ -102,9 +102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacleSprites:
-  - {fileID: 3463513232375808956, guid: 3731dcaa187a8bc4bbbf0daaf70eb090, type: 3}
   - {fileID: -5945266674725043111, guid: b4e8f1f253c1c9c4b849f4a3ada8c3fc, type: 3}
---- !u!61 &7156854682826615037
+  - {fileID: 3463513232375808956, guid: 3731dcaa187a8bc4bbbf0daaf70eb090, type: 3}
+--- !u!61 &8170744915117295580
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,13 +140,13 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 2.09375, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    oldSize: {x: 3.03125, y: 14.46875}
+    newSize: {x: 3, y: 11.74}
+    adaptiveTilingThreshold: 1
+    drawMode: 2
     adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_AutoTiling: 1
+  m_Size: {x: 3.03125, y: 14.46875}
   m_EdgeRadius: 0

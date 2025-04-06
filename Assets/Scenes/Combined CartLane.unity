@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 52330496}
   - component: {fileID: 52330495}
   m_Layer: 0
-  m_Name: SuperMarket_0
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1150,7 +1150,7 @@ GameObject:
   - component: {fileID: 1734957421}
   - component: {fileID: 1734957423}
   m_Layer: 0
-  m_Name: BoardManager
+  m_Name: SpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1608,11 +1608,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 2.36
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 17.22
       objectReference: {fileID: 0}
     - target: {fileID: 1383664139779191613, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1650,66 +1650,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Product
       objectReference: {fileID: 0}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: grocerySprites.Array.size
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1384307969618782483, guid: c8fd806889dd3734bbed7dfe1b5a620f, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[1]'
-      value: 
-      objectReference: {fileID: 7381965769198725172, guid: 2327a8cb4d49d454a920e9c4196987d6, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[2]'
-      value: 
-      objectReference: {fileID: -918663293682559355, guid: ad5d752962201ea4d94dc8e3dc2bc871, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[3]'
-      value: 
-      objectReference: {fileID: -5859083586626064994, guid: 9a9e4aced994e4a4c930057420cda973, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[4]'
-      value: 
-      objectReference: {fileID: 8989384381960519552, guid: 3027b466aae927d478f17e822419adea, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[5]'
-      value: 
-      objectReference: {fileID: 6796212558133418566, guid: 6f08d22779229fd478f5ee3e5b1eb535, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[6]'
-      value: 
-      objectReference: {fileID: 7176290880405574533, guid: 44ae563dcf016d4479cffd6094f49af5, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[7]'
-      value: 
-      objectReference: {fileID: 3124671387013074431, guid: 44b427cb640e84a4498a9aeedcaf0434, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[8]'
-      value: 
-      objectReference: {fileID: -6905139553319271647, guid: b821500fe27585747aff706431570e7f, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[9]'
-      value: 
-      objectReference: {fileID: 3931983199761314821, guid: 51b265082810be04b9ef63dbde00bfdc, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[10]'
-      value: 
-      objectReference: {fileID: -442027484646153954, guid: ce456f6740ab3b848a5dbdd312995392, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[11]'
-      value: 
-      objectReference: {fileID: 4315506946141470425, guid: 842d82827c1318f41ac3319b84214a81, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[12]'
-      value: 
-      objectReference: {fileID: 5122449979919942957, guid: 5eaf9b25e32eeaa4aac2b9cef4fbd90e, type: 3}
-    - target: {fileID: 4234741903473736429, guid: d8f5bc3d951dcbb4f89bfe4c83e107e8, type: 3}
-      propertyPath: 'grocerySprites.Array.data[13]'
-      value: 
-      objectReference: {fileID: -8558258358756935692, guid: 801e93703d852e046859cb69db4f4d48, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1725,11 +1665,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.77
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 17.93
       objectReference: {fileID: 0}
     - target: {fileID: 1200074526992863358, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1767,18 +1707,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
-    - target: {fileID: 7146968995180755476, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
-      propertyPath: obstacleSprites.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7146968995180755476, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
-      propertyPath: 'obstacleSprites.Array.data[0]'
-      value: 
-      objectReference: {fileID: -5945266674725043111, guid: b4e8f1f253c1c9c4b849f4a3ada8c3fc, type: 3}
-    - target: {fileID: 7146968995180755476, guid: 6adf95ed6c175af44a2ccab029f7b768, type: 3}
-      propertyPath: 'obstacleSprites.Array.data[1]'
-      value: 
-      objectReference: {fileID: 3463513232375808956, guid: 3731dcaa187a8bc4bbbf0daaf70eb090, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
