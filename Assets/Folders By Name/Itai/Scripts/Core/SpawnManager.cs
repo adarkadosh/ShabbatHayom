@@ -1,38 +1,109 @@
+using System.Collections;
 using UnityEngine;
 
 public class SpawnManager : MonoSingleton<SpawnManager>
 {
-    [SerializeField] private Sprite[] grocerySprites;
-    [SerializeField] private Sprite[] obstacleSprites;
-    [SerializeField] private float spawnInterval = 1f;
-    [SerializeField] private float spawnIntervalVariation = 0.5f;
+    [Header("Timers")]
+    [SerializeField] private float obstacleSpawnInterval = 2f;
+    [SerializeField] private float productSpawnInterval = 1f;
+    [SerializeField] private float speedIncreaseInterval = 10f;
 
-    private float _nextSpawnTime;
+    [Header("Movement")]
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float speedIncreaseAmount = 1f;
 
+    private readonly bool[] _laneOccupied = new bool[3];
+    
+    private readonly Vector3[] _productStartPositions = {
+        new(-3.7f, 10, 0),
+        new(0, 10, 0),
+        new(3.7f, 10, 0)
+    };
+    
+    private readonly Vector3[] _obstacleStartPositions = {
+        new(-3.7f, 15, 0),
+        new(0, 15, 0),
+        new(3.7f, 15, 0)
+    };
+    
     private void Start()
     {
-        _nextSpawnTime = Time.time + spawnInterval;
+        StartCoroutine(ObstacleSpawnRoutine());
+        StartCoroutine(ProductSpawnRoutine());
+        StartCoroutine(SpeedIncreaseRoutine());
     }
 
-    private void Update()
+    private IEnumerator ObstacleSpawnRoutine()
     {
-        if (!(Time.time >= _nextSpawnTime)) return;
-        Spawn();
-        _nextSpawnTime = Time.time + spawnInterval +
-                         Random.Range(-spawnIntervalVariation, spawnIntervalVariation);
+        while (true)
+        {
+            yield return new WaitForSeconds(obstacleSpawnInterval);
+
+            var lane = GetFreeLane();
+            if (lane != -1)
+            {
+                SpawnObstacle(lane);
+            }
+        }
     }
 
-    private void Spawn()
+    private IEnumerator ProductSpawnRoutine()
     {
-        if (Random.Range(0, 2) == 0)
+        while (true)
         {
-            var product = GroceriesPool.Instance.Get();
-            // product.GetComponent<SpriteRenderer>().sprite = grocerySprites[Random.Range(0, grocerySprites.Length)];
+            yield return new WaitForSeconds(productSpawnInterval);
+
+            var lane = GetFreeLane();
+            if (lane != -1)
+            {
+                SpawnProduct(lane);
+            }
         }
-        else
+    }
+
+    private IEnumerator SpeedIncreaseRoutine()
+    {
+        while (true)
         {
-            var obstacle = ObstaclePool.Instance.Get();
-            // obstacle.GetComponent<SpriteRenderer>().sprite = obstacleSprites[Random.Range(0, obstacleSprites.Length)];
+            yield return new WaitForSeconds(speedIncreaseInterval);
+            GameEvents.OnSpeedUp.Invoke();
+            moveSpeed += speedIncreaseAmount;
         }
+    }
+
+    private int GetFreeLane()
+    {
+        // Shuffle lanes randomly
+        int[] lanes = { 0, 1, 2 };
+        foreach (var lane in lanes)
+        {
+            if (!_laneOccupied[lane])
+                return lane;
+        }
+        return -1; // No free lane
+    }
+
+    private void SpawnObstacle(int lane)
+    {
+        var spawnPos = _obstacleStartPositions[Random.Range(0, _obstacleStartPositions.Length)];
+        var obstacle = ObstaclePool.Instance.Get();
+        obstacle.transform.position = spawnPos;
+        _laneOccupied[lane] = true;
+        StartCoroutine(FreeLaneAfterDelay(lane, 2f)); // 2 seconds until lane is free again
+    }
+
+    private void SpawnProduct(int lane)
+    {
+        
+        var spawnPos = _productStartPositions[Random.Range(0, _productStartPositions.Length)];
+        var product = GroceriesPool.Instance.Get();
+        product.transform.position = spawnPos;
+        product.gameObject.SetActive(true);
+    }
+
+    IEnumerator FreeLaneAfterDelay(int lane, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _laneOccupied[lane] = false;
     }
 }
