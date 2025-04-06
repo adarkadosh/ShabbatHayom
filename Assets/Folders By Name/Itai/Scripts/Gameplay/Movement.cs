@@ -32,7 +32,6 @@ public class Movement : MonoBehaviour
         else if (other.CompareTag("Product"))
         {
             // MyEvents.OnProductCollected?.Invoke(other.GetComponent<SpriteRenderer>().sprite);
-            GameEvents.OnProductCollected?.Invoke();
             other.gameObject.SetActive(false);
         }
     }

@@ -1,8 +1,8 @@
 using System;
-using UnityEngine;
+using General_Scripts;
 
 public class GameEvents
 {
-    public static Action OnProductCollected;
+    public static Action<Products> OnProductCollected;
     public static Action OnObstacleHit;
 }
