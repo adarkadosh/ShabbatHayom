@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     
     public void LoadGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene($"ShabbatToday");
     }
 
     public void HowToPlay()
