@@ -1,20 +1,17 @@
-﻿namespace General_Scripts
+﻿public enum Products
 {
-    public enum Products
-    {
-        Baguette,
-        Banana,
-        Broccoli,
-        Carrot,
-        ChickenWing,
-        ChickenDrumstick,
-        Chilli,
-        ChocolateMilk,
-        Eggplant,
-        Eggs,
-        Kale,
-        Mushroom,
-        ToiletPaper,
-        Watermelon
-    }
+    Baguette,
+    Banana,
+    Broccoli,
+    Carrot,
+    ChickenWing,
+    ChickenDrumstick,
+    Chilli,
+    ChocolateMilk,
+    Eggplant,
+    Eggs,
+    Kale,
+    Mushroom,
+    ToiletPaper,
+    Watermelon
 }

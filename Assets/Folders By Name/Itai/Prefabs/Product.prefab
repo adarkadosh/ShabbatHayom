@@ -102,20 +102,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grocerySprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1384307969618782483, guid: c8fd806889dd3734bbed7dfe1b5a620f, type: 3}
+  - {fileID: 7381965769198725172, guid: 2327a8cb4d49d454a920e9c4196987d6, type: 3}
+  - {fileID: -918663293682559355, guid: ad5d752962201ea4d94dc8e3dc2bc871, type: 3}
+  - {fileID: -5859083586626064994, guid: 9a9e4aced994e4a4c930057420cda973, type: 3}
+  - {fileID: 8989384381960519552, guid: 3027b466aae927d478f17e822419adea, type: 3}
+  - {fileID: 6796212558133418566, guid: 6f08d22779229fd478f5ee3e5b1eb535, type: 3}
+  - {fileID: 7176290880405574533, guid: 44ae563dcf016d4479cffd6094f49af5, type: 3}
+  - {fileID: 3124671387013074431, guid: 44b427cb640e84a4498a9aeedcaf0434, type: 3}
+  - {fileID: -6905139553319271647, guid: b821500fe27585747aff706431570e7f, type: 3}
+  - {fileID: 3931983199761314821, guid: 51b265082810be04b9ef63dbde00bfdc, type: 3}
+  - {fileID: -442027484646153954, guid: ce456f6740ab3b848a5dbdd312995392, type: 3}
+  - {fileID: 4315506946141470425, guid: 842d82827c1318f41ac3319b84214a81, type: 3}
+  - {fileID: 5122449979919942957, guid: 5eaf9b25e32eeaa4aac2b9cef4fbd90e, type: 3}
+  - {fileID: -8558258358756935692, guid: 801e93703d852e046859cb69db4f4d48, type: 3}
 --- !u!61 &4036711411029284880
 BoxCollider2D:
   m_ObjectHideFlags: 0
