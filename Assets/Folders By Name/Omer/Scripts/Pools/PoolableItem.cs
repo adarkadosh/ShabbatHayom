@@ -9,7 +9,7 @@ public class PoolableItem : MonoBehaviour, IPoolable
     {
         transform.position = Vector3.zero;
     }
-
+    
     // Update is called once per frame
     void Update()
     {

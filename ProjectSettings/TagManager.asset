@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Board
+  - Product
+  - Obstacle
+  - Destroyer
   layers:
   - Default
   - TransparentFX
