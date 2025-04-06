@@ -5,7 +5,17 @@ using System.Collections.Generic;
 public class ProductDeque : MonoBehaviour
 {
     private readonly LinkedList<Products> _deque = new LinkedList<Products>();
+
+    private void OnEnable()
+    {
+        GameEvents.OnProductCollected += PushBack;
+    }
     
+    private void OnDisable()
+    {
+        GameEvents.OnProductCollected -= PushBack;
+    }
+
     public void AddFront(Products productType)
     {
         _deque.AddFirst(productType);
@@ -14,6 +24,7 @@ public class ProductDeque : MonoBehaviour
     public void PushBack(Products productType)
     {
         _deque.AddLast(productType);
+        print(_deque.First);
     }
     
     public Products PopFront()

@@ -29,9 +29,9 @@ public class Movement : MonoBehaviour
         {
             GameEvents.OnObstacleHit?.Invoke();
         }
-        else if (other.CompareTag("Product"))
-        {
-            other.gameObject.SetActive(false);
-        }
+        // else if (other.CompareTag("Product"))
+        // {
+            // other.gameObject.SetActive(false);
+        // }
     }
 }
