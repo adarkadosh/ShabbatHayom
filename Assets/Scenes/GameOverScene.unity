@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 775625959}
   - component: {fileID: 775625958}
   m_Layer: 0
-  m_Name: BG1
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 795760123}
   - component: {fileID: 795760122}
   m_Layer: 0
-  m_Name: gamemanager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

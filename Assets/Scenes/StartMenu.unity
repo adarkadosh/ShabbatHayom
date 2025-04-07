@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 1882957644}
   - component: {fileID: 1882957643}
   m_Layer: 0
-  m_Name: opening screen (1)_0
+  m_Name: Opening Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
