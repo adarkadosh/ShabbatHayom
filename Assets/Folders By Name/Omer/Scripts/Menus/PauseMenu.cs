@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     
     private void Awake()
     {
-        if (SceneManager.GetActiveScene().name != "Game")
+        if (SceneManager.GetActiveScene().name != "ShabbatToday")
         {
             Destroy(gameObject);
         }
@@ -58,7 +58,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         // Load the main menu scene
         
-        SceneManager.LoadScene("MainMenu"); // TODO: Make the main menu scene
+        SceneManager.LoadScene("StartMenu");
     }
     
     public void QuitGame()

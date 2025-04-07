@@ -426,6 +426,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7103487661520558992, guid: 79b3609c74ece044eaa9dea75bb13cf9, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103487661520558992, guid: 79b3609c74ece044eaa9dea75bb13cf9, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103487661520558992, guid: 79b3609c74ece044eaa9dea75bb13cf9, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 700
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1166616520712640716, guid: 79b3609c74ece044eaa9dea75bb13cf9, type: 3}
@@ -847,10 +859,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1629737570555817848, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629737570555817848, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 115
+      objectReference: {fileID: 0}
     - target: {fileID: 4015631865017572105, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
       propertyPath: howToPlayUI
       value: 
       objectReference: {fileID: 1519060875}
+    - target: {fileID: 4340524519975366191, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -111.51044
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340524519975366191, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 114.99997
+      objectReference: {fileID: 0}
     - target: {fileID: 5187918696708804371, guid: 17b11999148db214aa192d7cc515cb05, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 

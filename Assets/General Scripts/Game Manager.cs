@@ -9,14 +9,21 @@ public class GameManager : MonoSingleton<GameManager>
     {
         scoreData.ResetScoreData();
     }
+
     private void OnEnable()
     {
-        GameEvents.GameOver += ExitGame;
+        GameEvents.GameOver += GameOver;
     }
 
     private void OnDisable()
     {
-        GameEvents.GameOver -= ExitGame;
+        GameEvents.GameOver -= GameOver;
+    }
+
+    private void GameOver()
+    {
+        // Handle game over logic here
+        SceneManager.LoadScene("GameOverScene");
     }
 
     private void Update()
@@ -28,8 +35,12 @@ public class GameManager : MonoSingleton<GameManager>
     }
 
     // when event is triggered, call this restart game method
-    public void RestartGame() => SceneManager.LoadScene("StartMenu");
-    
+    public static void RestartGame()
+    {
+        SceneManager.LoadScene("StartMenu");
+        GameEvents.OnGameRestart?.Invoke();
+    }
+
 
     public void ExitGame()
     {

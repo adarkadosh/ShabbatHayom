@@ -13,7 +13,7 @@ public class SoundManager : MonoSingleton<SoundManager>
     [SerializeField] private AudioClip itemScannedSound;
     [SerializeField] private AudioClip gameBeginSound;
     private float pitchIncrement = 0.05f;
-    
+
     private AudioSource backgroundMusicSource;
     private AudioSource soundEffectsSource;
     private static bool isBackgroundMusicPlaying = false;
@@ -41,13 +41,28 @@ public class SoundManager : MonoSingleton<SoundManager>
         GameEvents.OnSpeedUp += OnDifficultyChanged;
         GameEvents.OnProductCollected += OnItemSpawned;
         GameEvents.OnObstacleHit += OnPlayerHitSound;
-        
+        GameEvents.OnGameRestart += OnGameRestart;
+        // GameEvents.OnPauseGame += OnPause;
     }
-    
+
+    // private void OnPause()
+    // {
+    //     if (isBackgroundMusicPlaying)
+    //     {
+    //         backgroundMusicSource.Pause();
+    //         isBackgroundMusicPlaying = false;
+    //     } else 
+    //     {
+    //         backgroundMusicSource.UnPause();
+    //         isBackgroundMusicPlaying = true;
+    //     }
+    // }
+
     private void OnDifficultyChanged()
     {
         backgroundMusicSource.pitch += pitchIncrement;
     }
+
     private void OnPressedStart()
     {
         StartCoroutine(PlayStartGameSoundAndStartGame());
@@ -71,6 +86,15 @@ public class SoundManager : MonoSingleton<SoundManager>
             isBackgroundMusicPlaying = true;
         }
     }
+    
+    private void OnGameRestart()
+    {
+        if (isBackgroundMusicPlaying)
+        {
+            backgroundMusicSource.Play();
+            isBackgroundMusicPlaying = true;
+        }
+    }
 
     private void PlayBackgroundMusic(AudioClip clip)
     {
@@ -78,19 +102,18 @@ public class SoundManager : MonoSingleton<SoundManager>
         backgroundMusicSource.loop = true;
         backgroundMusicSource.Play();
     }
-    
-    
-    
+
+
     public void OnButtonPressed()
     {
         PlaySoundEffect(buttonPressedSound);
     }
-    
+
     private void OnItemScanned()
     {
         PlaySoundEffect(itemScannedSound);
     }
-    
+
     private void OnItemSpawned(Products product)
     {
         PlaySoundEffect(itemSpawnSound);
@@ -100,7 +123,7 @@ public class SoundManager : MonoSingleton<SoundManager>
     {
         soundEffectsSource.PlayOneShot(clip);
     }
-    
+
     private void OnPlayerHitSound()
     {
         PlaySoundEffect(playerHitSound);
@@ -116,5 +139,6 @@ public class SoundManager : MonoSingleton<SoundManager>
         PauseMenu.OnLoadMenu -= OnButtonPressed;
         GameEvents.OnProductCollected -= OnItemSpawned;
         GameEvents.OnObstacleHit -= OnPlayerHitSound;
+        GameEvents.OnGameRestart -= OnGameRestart;
     }
 }

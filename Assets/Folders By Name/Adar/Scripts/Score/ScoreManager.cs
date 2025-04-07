@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager Instance; // Singleton instance
+    // public static ScoreManager Instance; // Singleton instance
     [SerializeField] private TextMeshPro scoreText; // Reference to the UI text element
     [SerializeField] private TextMeshPro bestScoreText; 
     [SerializeField] private ScoreData scoreData;
@@ -13,15 +13,15 @@ public class ScoreManager : MonoBehaviour
     {
         bestScoreText.text = "HIGH-SCORE: " + scoreData.GetBestScore().ToString("D10");
         // Implement the singleton pattern
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Optional: persist between scenes
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        // if (Instance == null)
+        // {
+            // Instance = this;
+            // DontDestroyOnLoad(gameObject); // Optional: persist between scenes
+        // }
+        // else
+        // {
+            // Destroy(gameObject);
+        // }
     }
     
 
