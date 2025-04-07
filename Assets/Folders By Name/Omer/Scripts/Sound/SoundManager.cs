@@ -11,6 +11,7 @@ public class SoundManager : MonoSingleton<SoundManager>
     [SerializeField] private AudioClip timerSound;
     [SerializeField] private AudioClip buttonPressedSound;
     [SerializeField] private AudioClip itemScannedSound;
+    [SerializeField] private AudioClip gameBeginSound;
     private float pitchIncrement = 0.05f;
     
     private AudioSource backgroundMusicSource;
@@ -35,14 +36,31 @@ public class SoundManager : MonoSingleton<SoundManager>
         PauseMenu.OnResumeGame += OnButtonPressed;
         PauseMenu.OnPauseGame += OnButtonPressed;
         PauseMenu.OnLoadMenu += OnButtonPressed;
+        MainMenu.OnLoadGame += OnPressedStart;
         PoolableItem.ItemScanned += OnItemScanned;
         GameEvents.OnSpeedUp += OnDifficultyChanged;
         GameEvents.OnProductCollected += OnItemSpawned;
+        GameEvents.OnObstacleHit += OnPlayerHitSound;
+        
     }
     
     private void OnDifficultyChanged()
     {
         backgroundMusicSource.pitch += pitchIncrement;
+    }
+    private void OnPressedStart()
+    {
+        StartCoroutine(PlayStartGameSoundAndStartGame());
+    }
+
+    private IEnumerator PlayStartGameSoundAndStartGame()
+    {
+        PlaySoundEffect(gameBeginSound);
+        backgroundMusicSource.Pause();
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(gameBeginSound.length);
+        Time.timeScale = 1f;
+        backgroundMusicSource.Play();
     }
 
     private void OnGameStart()
@@ -60,6 +78,8 @@ public class SoundManager : MonoSingleton<SoundManager>
         backgroundMusicSource.loop = true;
         backgroundMusicSource.Play();
     }
+    
+    
     
     public void OnButtonPressed()
     {
@@ -80,6 +100,11 @@ public class SoundManager : MonoSingleton<SoundManager>
     {
         soundEffectsSource.PlayOneShot(clip);
     }
+    
+    private void OnPlayerHitSound()
+    {
+        PlaySoundEffect(playerHitSound);
+    }
 
     private void OnDisable()
     {
@@ -90,5 +115,6 @@ public class SoundManager : MonoSingleton<SoundManager>
         PauseMenu.OnPauseGame -= OnButtonPressed;
         PauseMenu.OnLoadMenu -= OnButtonPressed;
         GameEvents.OnProductCollected -= OnItemSpawned;
+        GameEvents.OnObstacleHit -= OnPlayerHitSound;
     }
 }
