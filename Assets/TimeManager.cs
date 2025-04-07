@@ -48,6 +48,7 @@ public class TimeManager : MonoBehaviour
         if (_elapsedTime < 0)
         {
             _elapsedTime = 0;
+            GameEvents.GameOver?.Invoke();
         }
 
         // Calculate in-game minutes and seconds
@@ -66,6 +67,12 @@ public class TimeManager : MonoBehaviour
                 StartCoroutine(BlinkText());
             }
         }
+
+        if (Mathf.Approximately(_elapsedTime, 600) || Mathf.Approximately(_elapsedTime, 300))
+        {
+            // Trigger an event when time is 10 minutes or 5 minutes left
+            GameEvents.OnSpeedUp?.Invoke();
+        }
     }
 
     private IEnumerator BlinkText()
@@ -77,6 +84,7 @@ public class TimeManager : MonoBehaviour
             clockText.color = Color.black;
             yield return new WaitForSeconds(0.5f);
         }
+
         clockText.color = Color.white; // Ensure text is white when timer ends
     }
 }
