@@ -87,4 +87,14 @@ public class ProductDeque : MonoBehaviour
             Debug.Log(node.Value);
         }
     }
+    
+    public List<Products> GetProducts()
+    {
+        List<Products> products = new List<Products>();
+        foreach (Products product in _deque)
+        {
+            products.Add(product);
+        }
+        return products;
+    }
 }
