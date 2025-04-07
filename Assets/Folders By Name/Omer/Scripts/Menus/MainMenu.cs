@@ -1,3 +1,5 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,9 +9,10 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject howToPlayUI;
     [SerializeField] private GameObject mainMenuUI;
     
-    
+    public static event Action OnLoadGame;
     public void LoadGame()
     {
+        OnLoadGame?.Invoke();
         SceneManager.LoadScene($"ShabbatToday");
     }
 
