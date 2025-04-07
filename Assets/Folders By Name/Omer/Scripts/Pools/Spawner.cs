@@ -5,6 +5,7 @@ public class Spawner : MonoBehaviour
 {
     // Update is called once per frame
     [SerializeField] private Transform _spawnPoint;
+    [SerializeField] private Sprite[] _sprites;
     
     private void OnEnable()
     {
@@ -13,6 +14,7 @@ public class Spawner : MonoBehaviour
     private void SpawnItem(Products proudct)
     {
         var item = ItemPool.Instance.Get();
+        item.GetComponent<SpriteRenderer>().sprite = _sprites[(int) proudct];
         item.transform.position = _spawnPoint.position;
     }
     
