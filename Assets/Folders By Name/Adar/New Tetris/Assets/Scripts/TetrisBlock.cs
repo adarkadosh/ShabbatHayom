@@ -78,6 +78,7 @@ public class TetrisBlock : MonoBehaviour
             {
                 DeleteLine(i);
                 RowDown(i);
+                GameEvents.OnRowCleared?.Invoke();
             }
         }
     }
