@@ -3,6 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoSingleton<GameManager>
 {
+    [SerializeField] private ScoreData scoreData;
+
+    private void Start()
+    {
+        scoreData.ResetScoreData();
+    }
     private void OnEnable()
     {
         GameEvents.GameOver += ExitGame;
@@ -25,12 +31,6 @@ public class GameManager : MonoSingleton<GameManager>
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-
-    private void Start()
-    {
-        // Initialize game state or other components here
     }
 
     public void ExitGame()

@@ -7,4 +7,6 @@ public class GameEvents
     public static Action OnSpeedUp;
     public static Action TetrisSet;
     public static Action GameOver;
+    public static Action OnRowCleared;
+    public static Action<int> OnScoreChanged;
 }
