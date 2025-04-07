@@ -620,6 +620,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4627070882965123751, guid: 124e579605c67284e8c534ff6a59abed, type: 3}
+      propertyPath: gameBeginSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f7d33775d2a1fd4fb193d9b14849e06, type: 3}
+    - target: {fileID: 4627070882965123751, guid: 124e579605c67284e8c534ff6a59abed, type: 3}
+      propertyPath: playerHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3eab6a4b8bee97b49abdee68b0be9cb0, type: 3}
     - target: {fileID: 8085355675116959955, guid: 124e579605c67284e8c534ff6a59abed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 218.88853
