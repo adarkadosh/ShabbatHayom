@@ -29,12 +29,7 @@ public class GameManager : MonoSingleton<GameManager>
 
     // when event is triggered, call this restart game method
     public void RestartGame() => SceneManager.LoadScene("StartMenu");
-
-
-    private void Start()
-    {
-        // Initialize game state or other components here
-    }
+    
 
     public void ExitGame()
     {
