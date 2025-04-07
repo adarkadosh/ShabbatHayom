@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class ProductDeque : MonoBehaviour
 {
-    private readonly LinkedList<Products> _deque = new LinkedList<Products>();
+    private readonly LinkedList<Products> _deque = new();
 
     private void OnEnable()
     {

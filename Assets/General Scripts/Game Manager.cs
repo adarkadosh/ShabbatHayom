@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,13 +5,11 @@ public class GameManager : MonoSingleton<GameManager>
 {
     private void OnEnable()
     {
-        GameEvents.OnObstacleHit += ExitGame;
         GameEvents.GameOver += ExitGame;
     }
 
     private void OnDisable()
     {
-        GameEvents.OnObstacleHit -= ExitGame;
         GameEvents.GameOver -= ExitGame;
     }
 
