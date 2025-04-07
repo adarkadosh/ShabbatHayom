@@ -2399,6 +2399,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2583413247085722531, guid: 7d7301b7ff35f5a4ebc0dd2aa3346e52, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4668661751262308134, guid: 7d7301b7ff35f5a4ebc0dd2aa3346e52, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2803,7 +2807,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: -8759312102593307287, guid: aaa66befdbfbd684b828c392806c834d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -13,11 +13,13 @@ public class GameManager : MonoSingleton<GameManager>
     private void OnEnable()
     {
         GameEvents.GameOver += GameOver;
+        GameEvents.RestartGame += RestartGame;
     }
 
     private void OnDisable()
     {
         GameEvents.GameOver -= GameOver;
+        GameEvents.RestartGame -= RestartGame;
     }
 
     private void GameOver()
@@ -40,6 +42,7 @@ public class GameManager : MonoSingleton<GameManager>
         SceneManager.LoadScene("StartMenu");
         GameEvents.OnGameRestart?.Invoke();
     }
+    
 
 
     public void ExitGame()

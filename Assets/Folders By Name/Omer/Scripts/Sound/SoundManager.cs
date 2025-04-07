@@ -94,6 +94,7 @@ public class SoundManager : MonoSingleton<SoundManager>
             backgroundMusicSource.Play();
             isBackgroundMusicPlaying = true;
         }
+        backgroundMusicSource.pitch = 1f;
     }
 
     private void PlayBackgroundMusic(AudioClip clip)

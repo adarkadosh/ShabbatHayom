@@ -10,5 +10,5 @@ public class GameEvents
     public static Action OnRowCleared;
     public static Action<int> OnScoreChanged;
     public static Action OnGameRestart;
-    public static Action OnPauseGame;
+    public static Action RestartGame;
 }
